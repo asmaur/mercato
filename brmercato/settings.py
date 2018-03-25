@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sitemaps',
+
     'apps.mercato',
 ]
 
@@ -135,6 +136,9 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATIC_URL = '/assets/'
 STATIC_ROOT = os.path.join(BASE_DIR, '/assets/')
+
+GEOIP_PATH = os.getcwd() +'/brmercato/geoip/' #'/home/amaurice/Documents/mercatopro/files/brmercato/geoip/' #os.path.join(BASE_DIR, '/geoip/')
+
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'brmercato', 'assets'),

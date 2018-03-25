@@ -17,7 +17,7 @@
   <link rel="icon" href="{% static "/img/favicon.png" %}" type="image/gif" sizes="16x16">
   
   <!-- Title-->
-  <title>BrM | Br-Mercato</title>
+  <title>Br-M | Trade Consulting Services</title>
   
   <!-- google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -103,8 +103,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12 text-center">
-            <h1 class="hero-title">{% trans "Get the Best Solution" %} <br> {% trans "To Grow Business Revenue" %}</h1>
-              <br>
+
                <h1 class="hero-title">{% trans "We have been working very hard" %} <br> {% trans "To Conect Africa to Brasilian Market" %}</h1>
           <!--  <p class="hero-tagline">
               We have been working very hard to create the new version. <br> It comes with a lot of new features. Check it out now!
@@ -128,7 +127,7 @@
         <div class="row">
           <div class="col-sm-12">
 
-            <form class="registration-form" action="/" method="POST" data-toggle="validator">
+            <form class="registration-form" data-toggle="validator" id="newsForm">
                 <div class="text-center" style="padding-top=0; margin-top:-3em;">
                   <h3> {% trans "Get our Newsletters" %} </h3>
                     <h6>{% trans "The last and the best in your email" %}</h6>
@@ -136,25 +135,38 @@
               <div class="row">
                 <div class="col-md-3 col-sm-6">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="{% trans "Full name" %}" required>
+                    <input type="text" class="form-control" id="name" placeholder="{% trans "Full name (Optional)" %}" >
                   </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                   <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email" required>
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
                   </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                   <div class="form-group">
-                    <input type="number" class="form-control" placeholder="Phone Number">
+                    <input type="text" class="form-control" id="phone" placeholder="Phone Number (Optional)">
                   </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
                   <div class="form-group">
-                    <button class="btn btn-block btn-theme ">{% trans "Sign in" %}</button>
+                    <button class="btn btn-block btn-theme ">{% trans "Send" %}</button>
                   </div>
+
                 </div>
               </div>
+                <style>
+                    .fa-spin{
+                        animation: fa-spin 2s infinite linear
+                    }
+                </style>
+
+               <div class="text-center" style="background-color: #ffb81e; display: none; margin-top: 1rem;" id="spin" > <i class="fa fa-spinner fa-2x fa-spin" aria-hidden="true"></i> Loading ...!</div>
+
+               <div class="text-center" style="background-color: #ffb81e; display: none;margin-top: 1rem;" id="checked" > <i class="fa fa-check-circle fa-2x " style="color:green" aria-hidden="true"></i> Thanks for subscribing ...!</div>
+
+                <div class="text-center" style="background-color: #ffb81e; display: none;margin-top: 1rem;" id="wrong" > <i class="fa fa-times-circle fa-2x " style="color:red" aria-hidden="true"></i> Something went wrong ...!</div>
+
             </form> <!-- END registration-form-->
           </div> <!-- END row-->
         </div> <!-- END row-->
@@ -173,8 +185,8 @@
       <div class="col-sm-12 text-center">
         <h2 class="section-title">Solution in 4 <span class="color-text">Easy</span> Steps </h2>
         <p class="section-tagline">
-            We <strong>conecting</strong> <span class="color-text"> <strong>Africa to the Brasilian</strong></span> <strong>market</strong>,
-            <br> <strong>New World,</strong> <strong>New market, </strong> <span class="color-text"> <strong>New relationship</span> </strong>
+            <strong>Conecting</strong> <span class="color-text"> <strong>Africa to the Brasilian</strong></span> <strong>market</strong>,
+            <br> <strong>New World,</strong> <strong> New market, </strong> <span class="color-text"> <strong> New relationship</span> </strong>
         </p>
       </div> <!-- END col-sm-12-->
     </div> <!-- END row-->
@@ -561,7 +573,7 @@
             </div>
             <h4 class="block-title">Customize Ready</h4>
             <p>
-              Any product from the brasilian market, as you need it, with your specification.
+              Any product from the brasilian market <br> as you need it, with your specification.
             </p>
           </div> <!-- END benefit-single-->
           
@@ -674,7 +686,7 @@
             <p>Basic</p>
           </div>
           <div class="plan-value">
-            <h4><sup>$</sup>2,000</h4>
+            <h4><sup>$</sup>2,500</h4>
           <!--  <p>Per Month</p> -->
           </div>
           <div class="plan-feature">
@@ -689,9 +701,9 @@
 
             </ul>
           </div>
-          <div class="plan-buy">
-            <a href="" class="btn btn-theme">buy now</a>
-          </div>
+        <!--  <div class="plan-buy">
+            <a href="#contact" class="btn btn-theme">Get plan</a>
+          </div> -->
         </div> <!-- END pricing-plan-->
       </div> <!-- END col-md-3 col-sm-6-->
 
@@ -701,7 +713,7 @@
             <p>Silver</p>
           </div>
           <div class="plan-value">
-            <h4><sup>$</sup>3,000</h4>
+            <h4><sup>$</sup>3,500</h4>
           <!--  <p>Per Month</p> -->
           </div>
           <div class="plan-feature">
@@ -716,9 +728,9 @@
 
             </ul>
           </div>
-          <div class="plan-buy">
-            <a href="" class="btn btn-theme">buy now</a>
-          </div>
+        <!--  <div class="plan-buy">
+            <a href="#contact" class="btn btn-theme">Get plan</a>
+          </div> -->
         </div> <!-- END pricing-plan-->
       </div> <!-- END col-md-3 col-sm-6-->
 
@@ -728,7 +740,7 @@
             <p>Gold</p>
           </div>
           <div class="plan-value">
-            <h4><sup>$</sup>2,500</h4>
+            <h4><sup>$</sup>5,000</h4>
             <p>Per Month</p>
           </div>
           <div class="plan-feature">
@@ -743,9 +755,9 @@
 
             </ul>
           </div>
-          <div class="plan-buy">
-            <a href="" class="btn btn-theme">buy now</a>
-          </div>
+        <!--  <div class="plan-buy">
+            <a href="#contact" class="btn btn-theme">Get plan</a>
+          </div> -->
         </div> <!-- END pricing-plan-->
       </div> <!-- END col-md-3 col-sm-6-->
 
@@ -756,7 +768,7 @@
             <p>Diamond</p>
           </div>
           <div class="plan-value">
-            <h4><sup>$</sup>4,000</h4>
+            <h4><sup>$</sup>10,000</h4>
             <p>Per Month</p>
           </div>
           <div class="plan-feature">
@@ -771,9 +783,9 @@
 
             </ul>
           </div>
-          <div class="plan-buy">
-            <a href="" class="btn btn-theme">buy now</a>
-          </div>
+         <!-- <div class="plan-buy">
+            <a href="#contact" class="btn btn-theme">Get plan</a>
+          </div> -->
         </div> <!-- END pricing-plan-->
       </div> <!-- END col-md-3 col-sm-6-->
 
@@ -797,21 +809,21 @@
   <div class="team-top-title">
     <div class="container">
       <div class="row">
-      <!--  <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6">
           <h2 class="section-title">Meet Our Team</h2>
         </div>
         <div class="col-md-8 col-sm-6">
-          <p>
+          <!-- <p>
             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.
-          </p>
-        </div> -->
+          </p> -->
+        </div>
       </div> <!-- END row-->
     </div> <!-- END container-->
   </div> <!-- END team-top-title-->
   <div class="container-fluid">
     <div class="row">
      
-    <!--  <div class="col-md-3 col-sm-6 no-padding wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
+      <div class="col-md-3 col-sm-6 no-padding wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
        <div class="team-single">
         <div class="team-img">
           <img src="{% static "/img//team/1.jpg" %}" alt="">
@@ -827,9 +839,9 @@
           </div>
         </div>
        </div>
-      </div>  END col-md-3 col-sm-6 no-padding-->
+      </div>  <!--END col-md-3 col-sm-6 no-padding-->
      
-    <!--  <div class="col-md-3 col-sm-6 no-padding wow fadeIn" data-wow-duration="1s" data-wow-delay=".2s">
+      <div class="col-md-3 col-sm-6 no-padding wow fadeIn" data-wow-duration="1s" data-wow-delay=".2s">
        <div class="team-single">
         <div class="team-img">
           <img src="{% static "/img//team/2.jpg" %}" alt="">
@@ -845,9 +857,9 @@
           </div>
         </div>
        </div>
-      </div>  END col-md-3 col-sm-6 no-padding-->
+      </div>  <!--END col-md-3 col-sm-6 no-padding-->
      
-    <!--  <div class="col-md-3 col-sm-6 no-padding wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+      <div class="col-md-3 col-sm-6 no-padding wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
        <div class="team-single">
         <div class="team-img">
           <img src="{% static "/img//team/3.jpg" %}" alt="">
@@ -863,9 +875,9 @@
           </div>
         </div>
        </div>
-      </div>  END col-md-3 col-sm-6 no-padding-->
+      </div>  <!--END col-md-3 col-sm-6 no-padding-->
 
-    <!--
+
       <div class="col-md-3 col-sm-6 no-padding wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">
        <div class="team-single">
         <div class="team-img">
@@ -882,7 +894,7 @@
           </div>
         </div>
        </div>
-      </div>  END col-md-3 col-sm-6 no-padding -->
+      </div>  <!--END col-md-3 col-sm-6 no-padding -->
       
     </div> <!-- END row-->
   </div> <!-- END container-fluid-->
@@ -900,10 +912,13 @@
         <h4 class="block-title">
           Whether you’re looking for answers, would like to solve a problem, you’ll find many ways to contact us right here.
         </h4>
+          <hr>
         <address class="contact-address">
-          <p>Address : R. Marechal Floriano Peixoto 370, CEP: 90020-061 Porto Alegre-RS Brazil </p>
+          <p>Address: R. Marechal Floriano Peixoto 370, <br>CEP: 90020-061 <br>Porto Alegre-RS Brazil </p>
+            <hr>
           <p>Email : <a href="mailto:support@echotheme.com">contact@br-mercato.com</a></p>
          <p>Phone :+55 51 8376 6284</p>
+            <hr>
         </address>
         <div class="social">
          <ul class="list-inline">
@@ -922,45 +937,94 @@
          </ul>
         </div> <!-- END social-->
       </div> <!-- END col-md-5-->
+
+        <style>
+            #loader {
+                display: none;
+                position: relative;
+                //top: 0;
+                //left: 0;
+                z-index: 100;
+                width: 35rem;
+                height: 55rem;
+                background-color: rgba(255, 255, 255, 0.5);
+                background-image: url("{% static 'img/loading.gif' %}");
+                background-repeat: no-repeat;
+                background-position: center;}
+
+                .alert-success{
+                    display: none;
+                }
+
+                .alert-danger{
+                    display: none;
+                }
+        </style>
+
       
       <div class="col-md-6 col-md-offset-1 col-sm-6">
-        <form action="contact.php" method="POST" class="contact-form" data-toggle="validator">
-         <div class="success-message"><i class="fa fa-check"></i> Message Sent </div>
+
+          <div class="alert alert-success" id="success">
+                <strong>Well done!</strong> Your message is have been submited.
+            </div>
+          <div class="alert alert-danger" id="danger">
+        <strong>Ooops !</strong> Something went wrong, try submitting again.
+      </div>
+
+      <div id="loader" class="center-block" ></div>
+
+        <form   data-toggle="validator" id="contactForm" >
+            {% csrf_token %}
+
           <div class="row">
             <div class="col-sm-6">
               <div class="form-group">
-                <input type="text" class="form-control" name="name" placeholder="Full Name" required>
+                <input type="text" class="form-control" name="full_name" id="full_name" placeholder="Full Name" required>
               </div>
             </div>
 
             <div class="col-sm-6">
               <div class="form-group">
-                <input type="text" class="form-control" name="name" placeholder="Company Name" required>
+                <input type="text" class="form-control" name="company_name" id="company_name" placeholder="Company Name" required>
               </div>
+            </div>
+          </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="mail" id="mail" placeholder="Email" required>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="telefone" id="telefone" placeholder="Phone (optional)" >
+                  </div>
+                </div>
             </div>
 
-            <div class="col-sm-6">
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" placeholder="Email" required>                
-              </div>
-            </div>
-          </div> <!-- END row-->
           <div class="row">
             <div class="col-sm-6">
               <div class="form-group">
-                <input type="number" class="form-control" name="phone" placeholder="Phone (optional)">
+                <select class="form-control input-lg" name="plan" id="plan" >
+                    <option>Plan D (Basic)</option>
+                    <option>Plan C (Silver)</option>
+                    <option selected>Plan B (Gold)</option>
+                    <option>Plan A (Diamond)</option>
+                </select>
               </div>
             </div>
             <div class="col-sm-6">
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
             </div>
           </div> <!-- END row-->
             <div class="form-group">
-              <textarea class="form-control" name="message" placeholder="Message" rows="8" required></textarea>
+              <textarea class="form-control" name="message" id="message" placeholder="Message" rows="8" required></textarea>
             </div>
-          <button class="btn btn-block btn-theme">Send message</button>
+          <button class="btn btn-block btn-theme" type="submit">Send message</button>
         </form>
       </div> <!-- END col-md-6 col-md-offset-1-->
     </div> <!-- END row-->
@@ -985,8 +1049,8 @@
         <div class="col-md-4 col-sm-6">
           <div class="footer-widget">
             <h4>About Us</h4>
-            <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidde.
+            <p class="text-justify">
+              Br-Mercato  is a group of professionals passionately committed to offer a trade consulting services to any company that need or want to get acess to the brasilian market. Intented to buy product or increase bussiness revenue in its own country or market. We are in team of young and dinamic people wtih experience on market analisis an acessorie on internacional trade.
             </p>
           </div>
         </div>
@@ -995,15 +1059,14 @@
             <h4>Useful Links</h4>
             <ul>
               <li><a href="">About Us</a></li>
-              <li><a href="">Advertise</a></li>
-              <li><a href="">Terms & Conditions</a></li>
-              <li><a href="">Privacy Policy</a></li>
-              <li><a href="">Careers</a></li>
-              <li><a href="">Shop</a></li>
+
+            <!--  <li><a href="">Terms & Conditions</a></li>
+              <li><a href="">Privacy Policy</a></li> -->
+
             </ul>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6">
+      <!--  <div class="col-md-3 col-sm-6">
           <div class="footer-widget">
             <h4>Recent Tweets</h4>
             <div class="tweet"></div>
@@ -1014,7 +1077,7 @@
             <h4>Instargram</h4>
             <div id="instafeed"></div>
           </div>
-        </div>
+        </div> -->
       </div> <!-- END row-->
     </div> <!-- END container-->
   </div> <!-- END footer-top-->
@@ -1068,7 +1131,8 @@
 
 
 <!-- scripts-->
-<script src="{% static "/vendor/jquery/dist/jquery.min.js" %}"></script>
+<!-- <script src="{% static "/vendor/jquery/dist/jquery.min.js" %}"></script> -->
+<script src="{% static "/vendor/jquery/jquery.min.js" %}"></script>
 <script src="{% static "/vendor/bootstrap/dist1/js/bootstrap.min.js" %}"></script>
 <script src="{% static "/vendor/owl.carousel/dist/owl.carousel.min.js" %}"></script>
 <script src="{% static "/vendor/magnific-popup/dist/jquery.magnific-popup.min.js" %}"></script>
@@ -1080,6 +1144,8 @@
 <script src="{% static "/js/easing.js" %}"></script>
 <script src="{% static "/js/count.js" %}"></script>
 <script src="{% static "/js/beborn.js" %}"></script>
+<script src="{% static "/js/message.js" %}"></script>
+<script src="{% static "/js/news.js" %}"></script>
 <script src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyB0uuKeEkPfAo7EUINYPQs3bzXn7AabgJI"></script>
 
 <script>

@@ -14,10 +14,10 @@
   <meta name="author" content="">
   
   <!-- Favicon-->
-  <link rel="icon" href="{% static "/img/em32.png" %}" type="image/gif" sizes="32x32">
+  <link rel="icon" href="{% static "/img/favico.png" %}" type="image/gif" sizes="80x30">
   
   <!-- Title-->
-  <title>Br-Mercato | Trade Consulting Service</title>
+  <title>Brazil Mercato | Trade Consulting Service</title>
   
   <!-- google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
@@ -64,7 +64,7 @@
          <ul class="nav navbar-nav pull-right">
            <li><a href="#steps">{% trans "How it works" %}</a></li>
            <li><a href="#services">{% trans "Services" %}</a></li>
-           <li><a href="#approach">{% trans "approach" %}</a></li>
+           <li><a href="#approach">{% trans "Aproach" %}</a></li>
            <li><a href="#main-benefits">{% trans "Benefits" %}</a></li>
 
            <li><a href="#pricing">{% trans "Pricing" %}</a></li>
@@ -161,11 +161,11 @@
                     }
                 </style>
 
-               <div class="text-center" style="background-color: #ffb81e; display: none; margin-top: 1rem;" id="spin" > <i class="fa fa-spinner fa-2x fa-spin" aria-hidden="true"></i> {% trans "Loading ..." %}"</div>
+               <div class="text-center" style="background-color: #ffb81e; display: none; margin-top: 1rem;" id="spin" > <i class="fa fa-spinner fa-2x fa-spin" aria-hidden="true"></i> {% trans "Loading ...!" %}"</div>
 
-               <div class="text-center" style="background-color: #ffb81e; display: none;margin-top: 1rem;" id="checked" > <i class="fa fa-check-circle fa-2x " style="color:green" aria-hidden="true"></i>{% trans  "Thanks for subscribing ..." %}</div>
+               <div class="text-center" style="background-color: #ffb81e; display: none;margin-top: 1rem;" id="checked" > <i class="fa fa-check-circle fa-2x " style="color:green" aria-hidden="true"></i>{% trans  "Thanks for subscribing ...!" %}</div>
 
-                <div class="text-center" style="background-color: #ffb81e; display: none;margin-top: 1rem;" id="wrong" > <i class="fa fa-times-circle fa-2x " style="color:red" aria-hidden="true"></i> {% trans "Something went wrong ..." %}</div>
+                <div class="text-center" style="background-color: #ffb81e; display: none;margin-top: 1rem;" id="wrong" > <i class="fa fa-times-circle fa-2x " style="color:red" aria-hidden="true"></i> {% trans "Something went wrong ...!" %}</div>
 
             </form> <!-- END registration-form-->
           </div> <!-- END row-->
@@ -183,10 +183,10 @@
    
     <div class="row">
       <div class="col-sm-12 text-center">
-        <h2 class="section-title">{% blocktrans %} Solution in 4 <span class="color-text"> Easy </span> Steps {% endblocktrans %} </h2>
+        <h2 class="section-title">{% trans "Solution in 4" %} <span class="color-text">{% trans "Easy" %}</span> {% trans "Steps" %} </h2>
         <p class="section-tagline">
-            <strong>{% blocktrans %} Connecting </strong> <span class="color-text"> <strong> Africa to the Brazilian</strong></span> <strong> market {% endblocktrans %}</strong>,
-            <br> <strong>{% trans "New World," %}</strong> <strong> {% trans " New market," %} </strong> <span class="color-text"> <strong> {% trans " New relationship" %}</span> </strong>
+            <strong>{% trans Conecting" %}</strong> <span class="color-text"> <strong>{% trans "Africa to the Brasilian" %}</strong></span> <strong>{% trans "market" %}</strong>,
+            <br> <strong>{% trans "New World," %}</strong> <strong> {% trans "New market," %} </strong> <span class="color-text"> <strong> {% trans "New relationship" %}</span> </strong>
         </p>
       </div> <!-- END col-sm-12-->
     </div> <!-- END row-->
@@ -203,7 +203,7 @@
           {% trans "Email us" %}
         </h4>
         <p>
-          {% trans "Send us a message through contact or email." %}
+          {% trans "Send us a message though contact or email." %}
         </p>
        </div> <!-- END steps-block-->
       </div> <!--END col-md-3 col-sm-6-->
@@ -218,7 +218,7 @@
           {% trans "What's Your Needs" %}
         </h4>
         <p>
-          {% trans "Your needs and your especifications." %}
+          {% trans "Your needs and especifications about it." %}
         </p>
        </div> <!-- END steps-block-->
       </div> <!--END col-md-3 col-sm-6-->
@@ -233,7 +233,7 @@
           {% trans "Better Prices" %}
         </h4>
         <p>
-          {% trans "We show you the best prices from the brazilian market." %}
+          {% trans "we show you the best prices from the brasilian market." %}
         </p>
        </div> <!-- END steps-block-->
       </div> <!--END col-md-3 col-sm-6-->
@@ -248,7 +248,7 @@
           {% trans "Make the Deal" %}
         </h4>
         <p>
-          {% trans "Your choices are ours, we make the deal happen." %}
+          {% trans "Your choices is ours, we make the deal happen." %}
         </p>
        </div> <!-- END steps-block-->
       </div> <!--END col-md-3 col-sm-6-->
@@ -275,10 +275,10 @@
         <div class="approch-text">
           <h4> <span class="color-text">{% trans "Our approach" %}</span> </h4>
           <h2 class="section-title">
-            {% blocktrans %} Balancing risk <br> and opportunity {% endblocktrans %}
+            {% trans "Balancing risk" %} <br> {% trans "and opportunity" %}
           </h2>
           <p>
-           {% trans  "We work with a range of company in many areas to get the better prices and reduce risks from a new market." %}
+           {% trans  "We work with a range of company in many areas to get the better prices anda reduce risks from a new market." %}
           </p>
         </div>
       </div> <!-- END col-md-5-->
@@ -305,7 +305,7 @@
               {% trans "Budget data & Report" %}
             </h4>
             <p>
-              {% trans "Data and report about any company, products of your need, prices on production in the brazilian market." %}
+              {% trans "Data and report about any company, product of your need, prices on production in the brasilian market." %}
             </p>
           </div> <!-- END feature-item-->
           
@@ -317,7 +317,7 @@
               {% trans "Planning & Quality" %}
             </h4>
             <p>
-              {% trans "Product quality, connecting companies, planning for great business and relationship." %}
+              {% trans "Product quality; connecting companies, planning for great bussiness and relationship." %}
             </p>
           </div> <!-- END feature-item-->
           
@@ -329,7 +329,7 @@
               {% trans "Negociation & Transit" %}
             </h4>
             <p>
-              {% trans "Evolving and finalizing negotiation between companies. Preparing for transit and transport for the final destination." %}
+              {% trans "Evolving and finalizing negotiation between companies. Preparing for transit and transport for final destination." %}
             </p>
           </div> <!-- END feature-item-->
            
@@ -525,9 +525,9 @@
    
     <div class="row">
       <div class="col-sm-12 text-center">
-        <h2 class="section-title">{% blocktrans %} Your Main <span class="color-text"> Benefits {% endblocktrans %}</span></h2>
+        <h2 class="section-title">{% trans "Your Main" %} <span class="color-text">{% trans "Benefits" %}</span></h2>
         <p class="title-tagline">
-          {% blocktrans %} Our main purpose is to get the better prices of the market for <strong> you {% endblocktrans %}</strong>.
+          {% trans "Our main purpose is to get the better prices of the market for" %} <strong>{% trans "you" %}</strong>.
         </p>
       </div> <!-- END col-sm-12 -->
     </div> <!-- END row-->
@@ -573,7 +573,7 @@
             </div>
             <h4 class="block-title">{% trans "Customize Ready" %}</h4>
             <p>
-              {% blocktrans %} Any product from the brazilian market <br> as you need it, with your specification. {% endblocktrans %}
+              {% trans "Any product from the brasilian market <br> as you need it, with your specification." %}
             </p>
           </div> <!-- END benefit-single-->
           
@@ -686,19 +686,18 @@
             <p>{% trans "Basic" %}</p>
           </div>
           <div class="plan-value">
-            <h4><sup>$</sup>{% trans "3,000" %}</h4>
+            <h4><sup>$</sup>2,500</h4>
             <p>{% trans "Per Month" %}</p> 
           </div>
           <div class="plan-feature">
             <ul>
-              <li><i class="fa fa-check"></i>{% trans  "Data on production and sales" %}</li>
-              <li><i class="fa fa-check"></i>{% trans "Budget on buying and transit estimation" %}</li>
-              <li><i class="fa fa-check"></i>{% trans "Follow market evolution [specific period of time]" %}</li>
-              <li><span class="text-muted">{% trans "Detailed report on brazilian market [specific product]" %}</span></li>
+              <li><i class="fa fa-check"></i>{% trans  "Data on production and budget" %}</li>
+              <li><i class="fa fa-check"></i>{% trans "Budget on buying and transit" %}</li>
+              <li><span class="text-muted">{% trans "Detalhed report on brasilian market (specific product)" %}</span></li>
               <li><span class="text-muted">{% trans "Estabilishment of entreprenarial relationship [Africa - Brazil]" %}</span></li>
-              <li><span class="text-muted">{% trans "Business negotiation assistance" %}</span></li>
-              <li><span class="text-muted">{% trans "Business transaction assistance" %}</span></li>
-              <li><span class="text-muted">{% trans "Assistance on transit to last destiny" %}</span></li>
+              <li><span class="text-muted">{% trans "Assist on the negaciação bethween companies" %}</span></li>
+              <li><span class="text-muted">{% trans "Assist on trasaction bethween companies" %}</span></li>
+              <li><span class="text-muted">{% trans "Assist on transit to last destiny" %}</span></li>
 
             </ul>
           </div>
@@ -714,19 +713,18 @@
             <p>{% trans "Silver" %}</p>
           </div>
           <div class="plan-value">
-            <h4><sup>$</sup>{% trans "5,500" %}</h4>
+            <h4><sup>$</sup>3,500</h4>
             <p>{% trans "Per Month" %}</p> 
           </div>
           <div class="plan-feature">
             <ul>
-              <li><i class="fa fa-check"></i> {% trans "Data on production and sales" %}</li>
-              <li><i class="fa fa-check"></i>{% trans "Budget on buying and transit estimation" %}</li>
-              <li><i class="fa fa-check"></i>{% trans "Follow market evolution [specific period of time]" %}</li>
-              <li><i class="fa fa-check"></i>{% trans "Detailed report on brazilian market [specific product]" %}</li>
+              <li><i class="fa fa-check"></i> {% trans "Data on production and budget" %}</li>
+              <li><i class="fa fa-check"></i>{% trans "Budget on buying and transit" %}</li>
+              <li><i class="fa fa-check"></i>{% trans "Detalhed report on brasilian market (specific product)" %}</li>
               <li><span class="text-muted">{% trans "Estabilishment of entreprenarial relationship [Africa - Brazil]" %}</span></li>
-              <li><span class="text-muted">{% trans "Business negotiation assistance" %}</span></li>
-              <li><span class="text-muted">{% trans "Business transaction assistance" %}</span></li>
-              <li><span class="text-muted">{% trans "Assistance during the transit to last destiny" %}</span></li>
+              <li><span class="text-muted">{% trans "Assist on the negaciação bethween companies" %}</span></li>
+              <li><span class="text-muted">{% trans "Assist on trasaction bethween companies" %}</span></li>
+              <li><span class="text-muted">{% trans "Assist on transit to last destiny" %}</span></li>
 
             </ul>
           </div>
@@ -742,19 +740,18 @@
             <p>{% trans "Gold" %}</p>
           </div>
           <div class="plan-value">
-            <h4><sup>$</sup>{% trans "7,000" %}</h4>
+            <h4><sup>$</sup>5,000</h4>
             <p>{% trans "Per Month" %}</p>
           </div>
           <div class="plan-feature">
             <ul>
-              <li><i class="fa fa-check"></i>{% trans "Data on production and sales" %}</li>
-              <li><i class="fa fa-check"></i>{% trans "Budget on buying and transit estimation" %}</li>
-              <li><i class="fa fa-check"></i>{% trans "Follow market evolution (for specific period of time)" %}</li>
-                <li><i class="fa fa-check"></i>{% trans "Detailed report on brazilian market (specific product)" %}</li>
+              <li><i class="fa fa-check"></i>{% trans "Data on production and budget" %}</li>
+              <li><i class="fa fa-check"></i>{% trans "Budget on buying and transit" %}</li>
+                <li><i class="fa fa-check"></i>{% trans "Detalhed report on brasilian market (specific product)" %}</li>
                 <li><i class="fa fa-check"></i>{% trans "Estabilishment of entreprenarial relationship [Africa - Brazil]" %}</li>
-                <li><i class="fa fa-check"></i>{% trans "Business negotiation assistance" %}</li>
-              <li><span class="text-muted">{% trans "Business transaction assistance" %}</span></li>
-              <li><span class="text-muted">{% trans "Assistance during the transit to last destiny" %}</span></li>
+                <li><i class="fa fa-check"></i>{% trans "Assist on the negaciação bethween companies" %}</li>
+              <li><span class="text-muted">{% trans "Assist on trasaction bethween companies" %}</span></li>
+              <li><span class="text-muted">{% trans "Assist on transit to last destiny" %}</span></li>
 
             </ul>
           </div>
@@ -771,19 +768,18 @@
             <p>{% trans "Diamond" %}</p>
           </div>
           <div class="plan-value">
-            <h4><sup>$</sup>{% trans "20,000" %}</h4>
+            <h4><sup>$</sup>10,000</h4>
             <p>{% trans "Per Month" %}</p>
           </div>
           <div class="plan-feature">
             <ul>
-              <li><i class="fa fa-check"></i>{% trans "Data on production and sales" %}</li>
-              <li><i class="fa fa-check"></i>{% trans "Budget on buying and transit estimation" %}</li>
-              <li><i class="fa fa-check"></i>{% trans "Follow market evolution [specific period of time]" %}</li>
-              <li><i class="fa fa-check"></i>{% trans "Detailed report on brazilian market [specific product]" %}</i></li>
+              <li><i class="fa fa-check"></i>{% trans "Data on production and budget" %}</li>
+              <li><i class="fa fa-check"></i>{% trans "Budget on buying and transit" %}</li>
+              <li><i class="fa fa-check"></i>{% trans "Detalhed report on brasilian market (specific product)" %}</i></li>
               <li><i class="fa fa-check"></i>{% trans "Estabilishment of entreprenarial relationship [Africa - Brazil]" %}</i></li>
-              <li><i class="fa fa-check"></i>{% trans "Business negotiation assistance" %}</i></li>
-              <li><i class="fa fa-check"></i>{% trans "Business transaction assistance" %}</i></li>
-              <li><i class="fa fa-check"></i>{% trans "Assistance during the transit to last destiny" %}</i></li>
+              <li><i class="fa fa-check"></i>{% trans "Assist on the negaciação bethween companies" %}</i></li>
+              <li><i class="fa fa-check"></i>{% trans "Assist on trasaction bethween companies" %}</i></li>
+              <li><i class="fa fa-check"></i>{% trans "Assist on transit to last destiny" %}</i></li>
 
             </ul>
           </div>
@@ -918,10 +914,10 @@
         </h4>
           <hr>
         <address class="contact-address">
-          <p>{% trans "Address" %}: R. Marechal Floriano Peixoto 370, <br>CEP: 90020-061 <br>Porto Alegre - RS Brazil </p>
+          <p>Address: R. Marechal Floriano Peixoto 370, <br>CEP: 90020-061 <br>Porto Alegre-RS Brazil </p>
             <hr>
-          <p>Email : <a href="mailto:contact@br-mercato.com">contact@br-mercato.com</a></p>
-         <p>{% trans "Phone" %} :+55 51 99730 8385</p>
+          <p>Email : <a href="mailto:support@echotheme.com">contact@br-mercato.com</a></p>
+         <p>Phone :+55 51 8376 6284</p>
             <hr>
         </address>
         <div class="social">
@@ -969,10 +965,10 @@
       <div class="col-md-6 col-md-offset-1 col-sm-6">
 
           <div class="alert alert-success" id="success">
-                <strong>{% blocktrans %} Well done! </strong> Your message is have been submited.{% endblocktrans %}
+                <strong>{% trans "Well done!" %}</strong>{% trans "Your message is have been submited." %}
             </div>
           <div class="alert alert-danger" id="danger">
-        <strong>{% blocktrans %} Ooops !</strong> Something went wrong, try again. {% endblocktrans %}
+        <strong>Ooops !</strong> {% trans "Something went wrong, try submitting again." %}
       </div>
 
       <div id="loader" class="center-block" ></div>
@@ -1054,7 +1050,7 @@
           <div class="footer-widget">
             <h4>{% trans "About Us" %}</h4>
             <p class="text-justify">
-              {% trans "Br-Mercato is a group of professionals passionately committed to offering a trade consulting service to any company that needs or want to get access to the Brazilian market. Intended to buy products or increase business revenue in its own country or market. We are a team of young and dynamic people with experience on market analysis and consulting on international trade." %}
+              {% trans "Br-Mercato  is a group of professionals passionately committed to offering a trade consulting service to any company that needs or want to get access to the Brazilian market. Intended to buy products or increase business revenue in its own country or market. We are a team of young and dynamic people with experience on market analysis an accessory on international trade." %}
             </p>
           </div>
         </div>
@@ -1088,7 +1084,7 @@
   
 
   <div class="footer-bottom">
-    <p>{% blocktrans %} Copyright &copy; Brazil Mercato 2018 | All right reserved. {% endblocktrans %}</p>
+    <p><i class="fa fa-copyright"></i>{% trans "All right reserved Brasil Mercato" %}</p>
   </div>
 </footer> <!-- END footer-->
 

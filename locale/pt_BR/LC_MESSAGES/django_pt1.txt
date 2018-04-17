@@ -1,0 +1,431 @@
+﻿
+
+#: 65
+msgid "How it works"
+msgstr ""
+
+#: 66
+msgid "Services"
+msgstr ""
+
+#: 67
+msgid "approach"
+msgstr ""
+
+#: :68
+msgid "Benefits"
+msgstr ""
+
+#: :70
+msgid "Pricing"
+msgstr ""
+
+#: :73
+msgid "Contact"
+msgstr "
+"
+
+#: 107
+msgid "We have been working very hard to Connect Africa to Brasilian Market "
+msgstr ""
+
+#: 113
+msgid "Play video"
+msgstr ""
+
+#: 132
+msgid "Get our Newsletter"
+
+msgstr ""
+
+#: 133
+msgid "The last and the best in your email"
+msgstr ""
+
+#: 138
+msgid "Full name (Optional)"
+msgstr ""
+
+#: :148
+msgid
+ "Phone Number (Optional)"
+msgstr ""
+
+#: 153
+msgid "Send"
+msgstr ""
+
+#: 164
+msgid "Loading ..."
+msgstr ""
+
+#: 166
+msgid "Thanks for subscribing ..."
+msgstr ""
+
+#: 168
+msgid
+ "Something went wrong ..."
+msgstr ""
+
+#: :186
+msgid " Solution in 4 Easy Steps "
+msgstr ""
+
+#: 188
+msgid "Connecting Africa to the Brazilian market "
+msgstr ""
+
+#: 189
+msgid 
+"New World, New market, New relationship "
+msgstr ""
+
+#: 203
+msgid "Email us"
+msgstr ""
+
+#: 206
+msgid "Send us a message via contact or email."
+msgstr ""
+
+#: 218
+msgid 
+"What are Your Needs"
+msgstr ""
+
+#: 221
+msgid "Your needs and your especifications."
+msgstr ""
+
+#: 233
+msgid "Best Prices"
+msgstr ""
+
+#: 236
+msgid 
+"We show to you the best prices from the Brazilian market."
+msgstr ""
+
+#: 248
+msgid "Make the Deal"
+msgstr ""
+
+#: 251
+msgid "Your choices are ours, we make the deal happen."
+
+msgstr ""
+
+#: 276
+msgid "Our approach"
+msgstr ""
+
+#: 278
+msgid "Balancing risk <br> and opportunity "
+msgstr ""
+
+#: 281
+msgid 
+"We work with a range of companies from many areas to get the best prices and reduce risks of a new market."
+msgstr ""
+
+#: 305
+msgid 
+"Budget data & Report"
+msgstr ""
+
+#: 308
+msgid "Data and report about any company, products of your need, prices of production in the Brazilian market."
+msgstr ""
+
+#: 317
+msgid 
+"Planning & Quality"
+msgstr ""
+
+#: 320
+msgid "Product quality, connecting companies, planning for business and relationship."
+msgstr ""
+
+#: 329
+msgid
+ "Negociation & Transit"
+msgstr ""
+
+#: 332
+msgid "Building and finalizing negotiation between companies. Preparing for transit and transport to the final destination."
+msgstr ""
+
+#: 517
+msgid 
+" Your Main Benefits "
+msgstr ""
+
+#: 519
+msgid " Our purpose is to show the best prices of the market to you "
+msgstr ""
+
+#: 533
+msgid 
+"Super Fast"
+msgstr ""
+
+#: 535
+msgid "We do the market search and filter it for you."
+msgstr ""
+
+#: 543
+msgid "Simple & Light"
+msgstr ""
+
+#: 545
+msgid 
+"Clear and Concise report for good business decision."
+msgstr ""
+
+#: 553
+msgid "Easy To Use"
+msgstr ""
+
+#: 555
+msgid "Just make contact and we do the job for you."
+msgstr ""
+
+#: 563
+msgid 
+"Customized plans"
+msgstr ""
+
+#: 565
+msgid "Choose any product from the Brazilian market <br> as you need it, and with its specifications. "
+msgstr ""
+
+#: 583
+msgid 
+"Earn a team"
+msgstr ""
+
+#: 585
+msgid "Our team is all at your disposal."
+msgstr ""
+
+#: 664
+msgid "Choose Your Plan"
+msgstr ""
+
+#: 666
+msgid 
+"Get the services you want."
+msgstr ""
+
+#: 675
+msgid "Basic"
+msgstr ""
+
+#: 678
+msgid "3,000"
+msgstr ""
+
+
+#: 764
+msgid "Per Month"
+msgstr ""
+
+
+#: 768
+msgid 
+"Data on production and sales"
+msgstr ""
+
+
+#: 769
+msgid "Buying and transport budget estimation"
+msgstr ""
+
+
+#: 770
+msgid "Follow market evolution (specific period of time)"
+msgstr ""
+
+
+#: 771
+msgid "Detailed report on Brazilian market (specific product)"
+msgstr ""
+
+
+#: 772
+msgid "Entrepreneurial relationship between Africa and Brazil"
+msgstr ""
+
+
+#: 773
+msgid "
+Assistance for business negotiation"
+msgstr ""
+
+
+#: 774
+msgid "Assistance for business transaction"
+msgstr ""
+
+
+#: 775
+msgid "Assistance for the transport to final destination"
+msgstr ""
+
+#: 703
+msgid "Silver"
+msgstr ""
+
+#: 706
+msgid "5,500"
+m
+sgstr ""
+
+#: 731
+msgid "Gold"
+msgstr ""
+
+#: 734
+msgid "7,000"
+msgstr ""
+
+#: 760
+msgid "Diamond"
+msgstr ""
+
+#: 763
+msgid "20,000"
+msgstr ""
+
+#: 906
+msgid "If you’re looking for answers or problem solving, you’ll find many ways to contact us right here."
+msgstr ""
+
+#: 910
+msgid "Address"
+msgstr ""
+
+#: 913
+msgid "Phone"
+msgstr ""
+
+#: 961
+msgid " Well done! Your message is have been submited.
+"
+msgstr ""
+
+#: 964
+msgid " Ooops ! Something went wrong, try again. "
+msgstr ""
+
+#: 975
+msgid "Full Name"
+msgstr ""
+
+#: 981
+msgid "Company Name"
+msgstr ""
+
+#: 995
+msgid "Phone 
+(optional)"
+msgstr ""
+
+#: 1004
+msgid "Plan D (Basic)"
+msgstr ""
+
+#: 1005
+msgid "Plan C (Silver)"
+msgstr ""
+
+#: 1006
+msgid "Plan B (Gold)"
+msgstr ""
+
+#: 1007
+msgid "Plan A (Diamond)"
+msgstr ""
+
+#: 1020
+msgid 
+"Send message"
+msgstr ""
+
+
+#: 1054
+msgid "About Us"
+msgstr ""
+
+#: 1046
+msgid "Br-Mercato is a group of professionals passionately committed to offer a trade consulting service to any company that need or want to get access to the Brazilian market. 
+We work for those who seek to buy products or increase business revenue in their own country or market. We are a team of young and dynamic people with experience on market analysis and international trade consulting ."
+msgstr ""
+
+#: 1052
+msgid 
+"Useful Links"
+msgstr ""
+
+#: 1080
+msgid " Copyright Brazil Mercato 2018 | All right reserved. "
+msgstr ""
+
+#: 114
+msgid "English"
+msgstr ""
+
+#: 115
+msgid "French"
+msgstr ""
+
+#: 116
+msgid "Portuguese"
+msgstr ""
+
+#: 117
+msgid "Swahili"
+msgstr ""
+
+
+"Como isso isso funciona" "Serviços" "abordagem" "Benefícios" "preços" "contato"
+"Nós temos trabalhado muito para conectar África ao mercado Brasileiro" "Assista ao vídeo" "Veja nossas notícias"
+
+"As últimas e as melhores no seu email" "nome completo (opcional)
+"Número de telefone" "Enviar" "Carregando" "obrigado por se inscrever"
+"Algo errado ocorreu" "Solução em 4 passos fáceis" "conectando África ao mercado brasileiro"
+"Novo mundo, novo mercado, nova relação" "envie-nos um email" "Envie-nos uma mensagem via contato ou email"
+
+"Quais são suas necessidades" "suas necessidades e suas especificações" "melhores preços"
+
+"Nos mostramos a você os melhores preços do mercado brasileiro" "Faça a negociação" "Suas escolhas são nossas, nós fazemos a negociação acontecer"
+"nossa abordagem" "risco balanceado e oportunidade"
+
+"TRabalhamos com uma gama de companhias de várias áreas para alcançar os melhores preços e reduzir os riscos do novo mercado"
+
+"DAdos de orçamento e relatórios" Dados e relatórios sobre qualquer companhia, produtos que você necessita, preços de produação no mercado brasileiro"
+
+"Planejamento e qualidade" "Qualidade de produto, conectando companhias, planejamento para negócios e relacionamentos."
+
+"Negociação e trânsito" "Construindo e finalizando negociações entre companhias. Preparação para trânsito e transporte até o destino final"
+
+"Seus principais benefícios" "Nosso propósito é mostrar os melhores preços do mercado para você" 
+
+"Super rápido" "Fazemos pesquisa de mercado e filtramos para você" "simples e claro"
+
+"Relatórios claros e concisos para boas decisões sobre negócios" "Fácil de usar" "Faça contato e nós faremos o trabalho para você"
+
+"Planos costumizados"  "EScolha qualquer produto do mercado brasileiro que você precisar, com suas especificações"
+ 
+ "Ganhe uma equipe" "nossa equipe está à sua disposição" "escolha seu plano"
+"Tenha o serviço que você quer" "Básico" "MEnsal" 
+
+"Dados sobre produção e vendas" "Estimativa de orçamento de compra e transporte" "Siga a evolução do mercado (em um Período espedífico de tempo)" "Relatórios detalhados do mercado brasileiro (produto específico)" "Relações empreendedoras entre África e Brasil
+"Assistência para negociações comerciais" "Assistência para transações comerciais" "Assistência para o transporte até o destino final" "prata" "5.500"
+"Ouro" "7000" " diamante" "20.000" "Se você está procurando por respostas ou resolução de problemas, você encontrará várias formas de nos contatar aqui" "Endereço" "telefone" "muito bem! sua mensagem foi enviada"
+"Ops! algo deu errado, tente novamente" "nome completo" "nome da empresa" "Telefone (opcional)"
+"Plano D (Básico)" "Plano C (Prata)" "Plano B (Ouro)" "Plano A (Diamante)"
+"Enviar mensagem" "Sobre Nós" "Br-Mercato é um grupo de profissionais apaixonadamente comprometidos em oferecer um serviço de consultoria de mercado para qualquer companhia que precisar ou quiser acessar o mercado brasileiro.
+Nós trabalhamos para aqueles que procuram comprar produtos ou aumentar a receita de seu negócio em seu próprio país ou mercado. Nós temos uma equipe de pessoas jovens e dinâmicas com experiência em análise de mercado e consultoria em comércio internacional."
+"Links úteis"  "Copyright Brazil Mercato 2018 | Todos os direitos reservados" "Inglês" "Francês" "Português" "Suaíli"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-17 00:45+0000\n"
+"POT-Creation-Date: 2018-04-26 12:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,8 @@ msgstr "Contact"
 msgid ""
 " We have been working very hard <br> to Connect Africa to Brasilian Market. "
 msgstr ""
-"Nous avons travaillé très dur <br> pour connecter l'Afrique au marché brésilien."
+"Nous avons travaillé très dur <br> pour connecter l'Afrique au marché "
+"brésilien."
 
 #: apps/mercato/templates/mercato/index.html:113
 msgid "Play video"
@@ -101,8 +102,8 @@ msgid ""
 " New World, </strong> <strong> New market, </strong> <span class=\"color-text"
 "\"> <strong> New relationship</span> "
 msgstr ""
-" Nouveau monde, </strong> <strong> Nouveau marché, </strong> <span class=\"color-text"
-"\"> <strong> De nouvelle relation.</span> "
+" Nouveau monde, </strong> <strong> Nouveau marché, </strong> <span class="
+"\"color-text\"> <strong> De nouvelle relation.</span> "
 
 #: apps/mercato/templates/mercato/index.html:203
 msgid "Email us"
@@ -185,13 +186,12 @@ msgid ""
 "Building and finalizing negotiation between companies. Preparing for transit "
 "and transport to the final destination."
 msgstr ""
-"Construire et finaliser la négociation entre les entreprises. Préparation pour "
-"le transit et le transport pour la destination finale."
+"Construire et finaliser la négociation entre les entreprises. Préparation "
+"pour le transit et le transport pour la destination finale."
 
 #: apps/mercato/templates/mercato/index.html:517
 msgid " Your Main <span class=\"color-text\"> Benefits "
 msgstr "Vos <span class=\"color-text\">avantages</span> principaux "
-
 
 #: apps/mercato/templates/mercato/index.html:519
 msgid " Our purpose is to show the best prices of the market to <strong> you "
@@ -379,7 +379,9 @@ msgid "Company Name"
 msgstr "Nom de l'entreprise"
 
 #: apps/mercato/templates/mercato/index.html:995
-msgid "Phone (optional)"
+#, fuzzy
+#| msgid "Phone"
+msgid "Phone "
 msgstr "Téléphone"
 
 #: apps/mercato/templates/mercato/index.html:1004
@@ -397,6 +399,10 @@ msgstr "Plan B (Gold)"
 #: apps/mercato/templates/mercato/index.html:1007
 msgid "Plan A (Diamond)"
 msgstr "Plan A (Diamond)"
+
+#: apps/mercato/templates/mercato/index.html:1013
+msgid "Subject"
+msgstr "Sujet"
 
 #: apps/mercato/templates/mercato/index.html:1020
 msgid "Send message"
@@ -446,3 +452,6 @@ msgstr ""
 #: brmercato/settings.py:117
 msgid "Swahili"
 msgstr ""
+
+#~ msgid "Phone (optional)"
+#~ msgstr "Téléphone"

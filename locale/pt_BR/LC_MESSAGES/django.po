@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-17 04:53+0000\n"
+"POT-Creation-Date: 2018-04-26 12:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -194,7 +194,8 @@ msgstr "Seus principais <span class=\"color-text\"> Benefícios"
 
 #: apps/mercato/templates/mercato/index.html:519
 msgid " Our purpose is to show the best prices of the market to <strong> you "
-msgstr "Nosso propósito é mostrar os melhores preços do mercado <strong> para você"
+msgstr ""
+"Nosso propósito é mostrar os melhores preços do mercado <strong> para você"
 
 #: apps/mercato/templates/mercato/index.html:533
 msgid "Super Fast"
@@ -394,6 +395,10 @@ msgstr "Plano B (Gold)"
 #: apps/mercato/templates/mercato/index.html:1007
 msgid "Plan A (Diamond)"
 msgstr "Plano A (Diamond)"
+
+#: apps/mercato/templates/mercato/index.html:1013
+msgid "Subject"
+msgstr "Assunto"
 
 #: apps/mercato/templates/mercato/index.html:1020
 msgid "Send message"

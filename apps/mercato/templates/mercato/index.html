@@ -11,7 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="author" content="Maurice AINON | am.amauri@outlook.com">
   
   <!-- Favicon-->
   <link rel="icon" href="{% static "/img/rect1.ico" %}" type="image/gif" sizes="32x32">
@@ -64,7 +64,7 @@
          <ul class="nav navbar-nav pull-right">
            <li><a href="#steps">{% trans "How it works" %}</a></li>
            <li><a href="#services">{% trans "Services" %}</a></li>
-           <li><a href="#approach">{% trans "approach" %}</a></li>
+           <li><a href="#approach">{% trans "Approach" %}</a></li>
            <li><a href="#main-benefits">{% trans "Benefits" %}</a></li>
 
            <li><a href="#pricing">{% trans "Pricing" %}</a></li>
@@ -129,13 +129,13 @@
 
             <form class="registration-form" data-toggle="validator" id="newsForm">
                 <div class="text-center" style="padding-top=0; margin-top:-3em;">
-                  <h3> {% trans "Get our Newsletters" %} </h3>
+                  <h3> {% trans "Get our Newsletter" %} </h3>
                     <h6>{% trans "The last and the best in your email" %}</h6>
               </div>
               <div class="row">
                 <div class="col-md-3 col-sm-6">
                   <div class="form-group">
-                    <input type="text" class="form-control" id="name" placeholder="{% trans "Full name (Optional)" %}" >
+                    <input type="text" class="form-control" id="name" placeholder="{% trans "Full name" %}" required>
                   </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -145,7 +145,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6">
                   <div class="form-group">
-                    <input type="tel" class="form-control" id="phone" placeholder="{% trans "Phone Number (Optional)" %}">
+                    <input type="tel" class="form-control" id="phone" placeholder="{% trans "Phone Number" %}" required>
                   </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
@@ -185,8 +185,8 @@
       <div class="col-sm-12 text-center">
         <h2 class="section-title">{% blocktrans %} Solution in 4 <span class="color-text"> Easy </span> Steps {% endblocktrans %} </h2>
         <p class="section-tagline">
-            <strong>{% blocktrans %} Connecting </strong> <span class="color-text"> <strong> Africa to the Brazilian</strong></span> <strong> market {% endblocktrans %}</strong>,
-            <br> <strong>{% blocktrans %} New World, </strong> <strong> New market, </strong> <span class="color-text"> <strong> New relationship</span> {% endblocktrans %} </strong>
+            <strong>{% blocktrans %} Connecting </strong> <span class="color-text"> <strong> Africa to the Brazilian</strong></span> <strong> market. {% endblocktrans %}</strong>,
+            <br> <strong>{% blocktrans %} New World, </strong> <strong> New market, </strong> <span class="color-text"> <strong> New relationship.</span> {% endblocktrans %} </strong>
         </p>
       </div> <!-- END col-sm-12-->
     </div> <!-- END row-->
@@ -516,7 +516,7 @@
       <div class="col-sm-12 text-center">
         <h2 class="section-title">{% blocktrans %} Your Main <span class="color-text"> Benefits {% endblocktrans %}</span></h2>
         <p class="title-tagline">
-          {% blocktrans %} Our purpose is to show the best prices of the market to <strong> you {% endblocktrans %}</strong>.
+          {% blocktrans %} Our purpose is to show the best prices of the market to <strong> you. {% endblocktrans %}</strong>.
         </p>
       </div> <!-- END col-sm-12 -->
     </div> <!-- END row-->
@@ -907,7 +907,7 @@
         </h4>
           <hr>
         <address class="contact-address">
-          <p>{% trans "Address" %}: R. Marechal Floriano Peixoto, 370, <br>CEP: 90020-060 <br>Porto Alegre - RS Brazil </p>
+          <p>{% trans "Address" %}: R. Marechal Floriano Peixoto, 370 <br>CEP: 90020-060 <br>Porto Alegre - RS Brazil </p>
             <hr>
           <p>Email : <a href="mailto:contact@br-mercato.com">contact@br-mercato.com</a></p>
          <p>{% trans "Phone" %} :+55 51 99730 8385</p>
@@ -992,7 +992,7 @@
 
                 <div class="col-sm-6">
                   <div class="form-group">
-                    <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="{% trans "Phone " %}" required>
+                    <input type="tel" class="form-control" name="telefone" id="telefone" placeholder="{% trans "Phone" %}" required>
                   </div>
                 </div>
             </div>

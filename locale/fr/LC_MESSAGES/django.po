@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-26 12:26+0000\n"
+"POT-Creation-Date: 2018-04-26 20:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgid "Services"
 msgstr "Services"
 
 #: apps/mercato/templates/mercato/index.html:67
-msgid "approach"
+msgid "Approach"
 msgstr "Approche"
 
 #: apps/mercato/templates/mercato/index.html:68
@@ -54,20 +54,20 @@ msgid "Play video"
 msgstr "Jouer la vidéo"
 
 #: apps/mercato/templates/mercato/index.html:132
-msgid "Get our Newsletters"
-msgstr "Recevez nos newsletters"
+msgid "Get our Newsletter"
+msgstr "Recevez notre newsletter"
 
 #: apps/mercato/templates/mercato/index.html:133
 msgid "The last and the best in your email"
 msgstr "Le meilleur dans votre email"
 
 #: apps/mercato/templates/mercato/index.html:138
-msgid "Full name (Optional)"
-msgstr "Nom complet (facultatif)"
+msgid "Full name"
+msgstr "Nom complet"
 
 #: apps/mercato/templates/mercato/index.html:148
-msgid "Phone Number (Optional)"
-msgstr "Numéro de téléphone (facultatif)"
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
 
 #: apps/mercato/templates/mercato/index.html:153
 msgid "Send"
@@ -92,17 +92,17 @@ msgstr "Solution en 4 étapes <span class=\"color-text\">faciles</span>"
 #: apps/mercato/templates/mercato/index.html:188
 msgid ""
 " Connecting </strong> <span class=\"color-text\"> <strong> Africa to the "
-"Brazilian</strong></span> <strong> market "
+"Brazilian</strong></span> <strong> market. "
 msgstr ""
 "Connecter </strong> <span class=\"color-text\"> <strong> l'Afrique au marché "
-"brésilien</strong></span> <strong> "
+"brésilien.</strong></span> <strong> "
 
 #: apps/mercato/templates/mercato/index.html:189
 msgid ""
 " New World, </strong> <strong> New market, </strong> <span class=\"color-text"
-"\"> <strong> New relationship</span> "
+"\"> <strong> New relationship.</span> "
 msgstr ""
-" Nouveau monde, </strong> <strong> Nouveau marché, </strong> <span class="
+"Nouveau monde, </strong> <strong> Nouveau marché, </strong> <span class="
 "\"color-text\"> <strong> De nouvelle relation.</span> "
 
 #: apps/mercato/templates/mercato/index.html:203
@@ -155,7 +155,7 @@ msgstr ""
 
 #: apps/mercato/templates/mercato/index.html:305
 msgid "Budget data & Report"
-msgstr "Données budgétaires & rapport"
+msgstr "budgéts & rapport"
 
 #: apps/mercato/templates/mercato/index.html:308
 msgid ""
@@ -174,7 +174,7 @@ msgid ""
 "Product quality, connecting companies, planning for business and "
 "relationship."
 msgstr ""
-"La qualité des produits; connexion entre entreprises, planification des "
+"La qualité des produits, connexion entre entreprises, planification des "
 "grandes affaires et relations."
 
 #: apps/mercato/templates/mercato/index.html:329
@@ -191,13 +191,13 @@ msgstr ""
 
 #: apps/mercato/templates/mercato/index.html:517
 msgid " Your Main <span class=\"color-text\"> Benefits "
-msgstr "Vos <span class=\"color-text\">avantages</span> principaux "
+msgstr "Vos <span class=\"color-text\">avantages</span> principaux"
 
 #: apps/mercato/templates/mercato/index.html:519
-msgid " Our purpose is to show the best prices of the market to <strong> you "
+msgid " Our purpose is to show the best prices of the market to <strong> you. "
 msgstr ""
 "Notre objectif principal est d'obtenir les meilleurs prix du marché pour "
-"<strong> vous"
+"<strong> vous."
 
 #: apps/mercato/templates/mercato/index.html:533
 msgid "Super Fast"
@@ -285,21 +285,21 @@ msgstr "Budget sur l'achat et de transit"
 #: apps/mercato/templates/mercato/index.html:741
 #: apps/mercato/templates/mercato/index.html:770
 msgid "Follow market evolution (specific period of time)"
-msgstr "Suivre l'évolution du marché [période spécifique]"
+msgstr "Suivre l'évolution du marché (période spécifique)"
 
 #: apps/mercato/templates/mercato/index.html:686
 #: apps/mercato/templates/mercato/index.html:714
 #: apps/mercato/templates/mercato/index.html:742
 #: apps/mercato/templates/mercato/index.html:771
 msgid "Detailed report on Brazilian market (specific product)"
-msgstr "Rapport détaillé sur le marché brésilien [produit spécifique]"
+msgstr "Rapport détaillé sur le marché brésilien (produit spécifique)"
 
 #: apps/mercato/templates/mercato/index.html:687
 #: apps/mercato/templates/mercato/index.html:715
 #: apps/mercato/templates/mercato/index.html:743
 #: apps/mercato/templates/mercato/index.html:772
 msgid "Entrepreneurial relationship between Africa and Brazil"
-msgstr "Mise en place des relations d'entreprise [Afrique - Brésil]"
+msgstr "Mise en place des relations d'entreprise (Afrique - Brésil)"
 
 #: apps/mercato/templates/mercato/index.html:688
 #: apps/mercato/templates/mercato/index.html:716
@@ -359,6 +359,7 @@ msgid "Address"
 msgstr "Adresse"
 
 #: apps/mercato/templates/mercato/index.html:913
+#: apps/mercato/templates/mercato/index.html:995
 msgid "Phone"
 msgstr "Téléphone"
 
@@ -377,12 +378,6 @@ msgstr "Nom complet"
 #: apps/mercato/templates/mercato/index.html:981
 msgid "Company Name"
 msgstr "Nom de l'entreprise"
-
-#: apps/mercato/templates/mercato/index.html:995
-#, fuzzy
-#| msgid "Phone"
-msgid "Phone "
-msgstr "Téléphone"
 
 #: apps/mercato/templates/mercato/index.html:1004
 msgid "Plan D (Basic)"
@@ -434,8 +429,8 @@ msgid "Useful Links"
 msgstr "Liens utiles"
 
 #: apps/mercato/templates/mercato/index.html:1080
-msgid " Copyright &copy; Brazil Mercato 2018 | All right reserved. "
-msgstr "Copyright &copy; Brazil Mercato 2018 | Tous droits réservés."
+msgid " Copyright &copy; Br-Mercato 2018 | All right reserved. "
+msgstr "Copyright &copy; Br-Mercato 2018 | Tous droits réservés."
 
 #: brmercato/settings.py:114
 msgid "English"
@@ -452,6 +447,3 @@ msgstr ""
 #: brmercato/settings.py:117
 msgid "Swahili"
 msgstr ""
-
-#~ msgid "Phone (optional)"
-#~ msgstr "Téléphone"

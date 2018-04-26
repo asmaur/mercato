@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-26 20:14+0000\n"
+"POT-Creation-Date: 2018-04-26 12:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,235 +20,236 @@ msgstr ""
 
 #: apps/mercato/templates/mercato/index.html:65
 msgid "How it works"
-msgstr "Como funciona"
+msgstr "Usage"
 
 #: apps/mercato/templates/mercato/index.html:66
 msgid "Services"
-msgstr "Serviços"
+msgstr "Services"
 
 #: apps/mercato/templates/mercato/index.html:67
-msgid "Approach"
-msgstr "Abordagem"
+msgid "approach"
+msgstr "Approche"
 
 #: apps/mercato/templates/mercato/index.html:68
 msgid "Benefits"
-msgstr "Benefícios"
+msgstr "Avantages"
 
 #: apps/mercato/templates/mercato/index.html:70
 msgid "Pricing"
-msgstr "Preços"
+msgstr "Tarifs"
 
 #: apps/mercato/templates/mercato/index.html:73
 msgid "Contact"
-msgstr "Contato"
+msgstr "Contact"
 
 #: apps/mercato/templates/mercato/index.html:107
 msgid ""
 " We have been working very hard <br> to Connect Africa to Brasilian Market. "
 msgstr ""
-"Nós temos trabalhado muito <br> para conectar África ao mercado Brasileiro."
+"Nous avons travaillé très dur <br> pour connecter l'Afrique au marché "
+"brésilien."
 
 #: apps/mercato/templates/mercato/index.html:113
 msgid "Play video"
-msgstr "Assista ao vídeo"
+msgstr "Jouer la vidéo"
 
 #: apps/mercato/templates/mercato/index.html:132
-msgid "Get our Newsletter"
-msgstr "Receba nossa Newsletter"
+msgid "Get our Newsletters"
+msgstr "Recevez nos newsletters"
 
 #: apps/mercato/templates/mercato/index.html:133
 msgid "The last and the best in your email"
-msgstr "As últimas e as melhores no seu email"
+msgstr "Le meilleur dans votre email"
 
 #: apps/mercato/templates/mercato/index.html:138
-msgid "Full name"
-msgstr "Nome completo"
+msgid "Full name (Optional)"
+msgstr "Nom complet (facultatif)"
 
 #: apps/mercato/templates/mercato/index.html:148
-msgid "Phone Number"
-msgstr "Número de telefone"
+msgid "Phone Number (Optional)"
+msgstr "Numéro de téléphone (facultatif)"
 
 #: apps/mercato/templates/mercato/index.html:153
 msgid "Send"
-msgstr "Enviar"
+msgstr "Envoyer"
 
 #: apps/mercato/templates/mercato/index.html:164
 msgid "Loading ..."
-msgstr "Carregando ..."
+msgstr "Chargement ..."
 
 #: apps/mercato/templates/mercato/index.html:166
 msgid "Thanks for subscribing ..."
-msgstr "Obrigado por se inscrever ..."
+msgstr "Merci de vous être abonné ..."
 
 #: apps/mercato/templates/mercato/index.html:168
 msgid "Something went wrong ..."
-msgstr "Algo errado ocorreu ..."
+msgstr "Quelque chose a mal tourné ..."
 
 #: apps/mercato/templates/mercato/index.html:186
 msgid " Solution in 4 <span class=\"color-text\"> Easy </span> Steps "
-msgstr "Solução em 4 passos <span class=\"color-text\">fáceis </span>"
+msgstr "Solution en 4 étapes <span class=\"color-text\">faciles</span>"
 
 #: apps/mercato/templates/mercato/index.html:188
 msgid ""
 " Connecting </strong> <span class=\"color-text\"> <strong> Africa to the "
-"Brazilian</strong></span> <strong> market. "
+"Brazilian</strong></span> <strong> market "
 msgstr ""
-"Conectando </strong> <span class=\"color-text\"> <strong> África ao  mercado "
-"</strong></span> <strong> brasileiro."
-
+"Connecter </strong> <span class=\"color-text\"> <strong> l'Afrique au marché "
+"brésilien</strong></span> <strong> "
 
 #: apps/mercato/templates/mercato/index.html:189
 msgid ""
 " New World, </strong> <strong> New market, </strong> <span class=\"color-text"
-"\"> <strong> New relationship.</span> "
+"\"> <strong> New relationship</span> "
 msgstr ""
-" Novo mundo, </strong> <strong> Novo mercado, </strong> <span class=\"color-"
-"text\"> <strong> Nova relação.</span> "
+" Nouveau monde, </strong> <strong> Nouveau marché, </strong> <span class="
+"\"color-text\"> <strong> De nouvelle relation.</span> "
 
 #: apps/mercato/templates/mercato/index.html:203
 msgid "Email us"
-msgstr "Envie-nos um email"
+msgstr "Écrivez-nous"
 
 #: apps/mercato/templates/mercato/index.html:206
 msgid "Send us a message via contact or email."
-msgstr "Envie-nos uma mensagem pelo contato ou email."
+msgstr "Envoyez-nous un message par contact ou par e-mail."
 
 #: apps/mercato/templates/mercato/index.html:218
 msgid "What are Your Needs"
-msgstr "Quais são suas necessidades"
+msgstr "Quels sont vos besoins"
 
 #: apps/mercato/templates/mercato/index.html:221
 msgid "Your needs and your especifications."
-msgstr "Suas necessidades e suas especificações."
+msgstr "Vos besoins et Vos spécifications."
 
 #: apps/mercato/templates/mercato/index.html:233
 msgid "Best Prices"
-msgstr "Os melhores preços"
+msgstr "Les meilleurs prix"
 
 #: apps/mercato/templates/mercato/index.html:236
 msgid "We show to you the best prices from the Brazilian market."
-msgstr "Nos mostramos a você os melhores preços do mercado brasileiro."
+msgstr "Nous vous offrons les meilleurs prix du marché brésilien."
 
 #: apps/mercato/templates/mercato/index.html:248
 msgid "Make the Deal"
-msgstr "Faça a negócio"
+msgstr "Faire le Deal"
 
 #: apps/mercato/templates/mercato/index.html:251
 msgid "Your choices are ours, we make the deal happen."
-msgstr "Suas escolhas são nossas, nós fazemos a negociação acontecer."
+msgstr "Vos choix sont les nôtres, nous faisons l'affaire."
 
 #: apps/mercato/templates/mercato/index.html:276
 msgid "Our approach"
-msgstr "Nossa abordagem"
+msgstr "Notre approche"
 
 #: apps/mercato/templates/mercato/index.html:278
 msgid " Balancing risk <br> and opportunity "
-msgstr "Balanceando risco <br> e Oportunidade"
+msgstr "Équilibrer risques et opportunités"
 
 #: apps/mercato/templates/mercato/index.html:281
 msgid ""
 "We work with a range of companies from many areas to get the best prices and "
 "reduce risks of a new market."
 msgstr ""
-"Trabalhamos com uma gama de companhias de várias áreas para alcançar os "
-"melhores preços e reduzir os riscos do novo mercado."
+"Nous travaillons avec une gamme de société dans de nombreux domaines pour "
+"obtenir les meilleurs prix et réduire les risques d'un nouveau marché."
 
 #: apps/mercato/templates/mercato/index.html:305
 msgid "Budget data & Report"
-msgstr "Orçamento & relatórios"
+msgstr "Données budgétaires & rapport"
 
 #: apps/mercato/templates/mercato/index.html:308
 msgid ""
 "Data and report about any company, products of your need, prices of "
 "production in the Brazilian market."
 msgstr ""
-"Dados e relatórios sobre qualquer companhia, produtos que você necessita, "
-"preços de produação no mercado brasileiro."
+"Données et rapports sur toute entreprise, produit de votre besoin, prix sur "
+"les produits dans le marché brésilien."
 
 #: apps/mercato/templates/mercato/index.html:317
 msgid "Planning & Quality"
-msgstr "Planejamento & Qualidade"
+msgstr "Planification & Qualité"
 
 #: apps/mercato/templates/mercato/index.html:320
 msgid ""
 "Product quality, connecting companies, planning for business and "
 "relationship."
 msgstr ""
-"Qualidade de produto, conectando companhias, planejamento para negócios e "
-"relacionamentos."
+"La qualité des produits; connexion entre entreprises, planification des "
+"grandes affaires et relations."
 
 #: apps/mercato/templates/mercato/index.html:329
 msgid "Negociation & Transit"
-msgstr "Negociação & trânsito"
+msgstr "Négociation & Transit"
 
 #: apps/mercato/templates/mercato/index.html:332
 msgid ""
 "Building and finalizing negotiation between companies. Preparing for transit "
 "and transport to the final destination."
 msgstr ""
-"Construindo e finalizando negociações entre companhias. Preparação para "
-"trânsito e transporte até o destino final."
+"Construire et finaliser la négociation entre les entreprises. Préparation "
+"pour le transit et le transport pour la destination finale."
 
 #: apps/mercato/templates/mercato/index.html:517
 msgid " Your Main <span class=\"color-text\"> Benefits "
-msgstr "Seus principais <span class=\"color-text\"> Benefícios"
+msgstr "Vos <span class=\"color-text\">avantages</span> principaux "
 
 #: apps/mercato/templates/mercato/index.html:519
-msgid " Our purpose is to show the best prices of the market to <strong> you. "
+msgid " Our purpose is to show the best prices of the market to <strong> you "
 msgstr ""
-"Nosso propósito é mostrar os melhores preços do mercado <strong> para você"
+"Notre objectif principal est d'obtenir les meilleurs prix du marché pour "
+"<strong> vous"
 
 #: apps/mercato/templates/mercato/index.html:533
 msgid "Super Fast"
-msgstr "Super rápido"
+msgstr "Super rapide"
 
 #: apps/mercato/templates/mercato/index.html:535
 msgid "We do the market search and filter it for you."
-msgstr "Fazemos pesquisa de mercado e filtramos para você."
+msgstr "Nous faisons la recherche de marché et de filtrage pour vous."
 
 #: apps/mercato/templates/mercato/index.html:543
 msgid "Simple & Light"
-msgstr "Simples & Light"
+msgstr "Simple & Light"
 
 #: apps/mercato/templates/mercato/index.html:545
 msgid "Clear and Concise report for good business decision."
-msgstr "Relatórios claros e concisos para boas decisões de negócios."
+msgstr "Rapport clair et concis pour une bonne décision d'affaires."
 
 #: apps/mercato/templates/mercato/index.html:553
 msgid "Easy To Use"
-msgstr "Fácil de usar"
+msgstr "Facile à utiliser"
 
 #: apps/mercato/templates/mercato/index.html:555
 msgid "Just make contact and we do the job for you."
-msgstr "Faça contato e nós faremos o trabalho para você."
+msgstr "Prenez contact et nous faisons le travail pour vous."
 
 #: apps/mercato/templates/mercato/index.html:563
 msgid "Customized plans"
-msgstr "Planos costumizados"
+msgstr "Plans sur mesure"
 
 #: apps/mercato/templates/mercato/index.html:565
 msgid ""
 " Choose any product from the Brazilian market <br> as you need it, and with "
 "its specifications. "
 msgstr ""
-"Escolha qualquer produto do mercado brasileiro <br> que você precisar, com "
-"suas especificações."
+"Tout produit du marché brésilien <br> comme vous le souhaitez, avec votre "
+"cahier des charges."
 
 #: apps/mercato/templates/mercato/index.html:583
 msgid "Earn a team"
-msgstr "Ganhe uma equipe"
+msgstr "Gagnez une équipe"
 
 #: apps/mercato/templates/mercato/index.html:585
 msgid "Our team is all at your disposal."
-msgstr "Nossa equipe está à sua disposição."
+msgstr "Notre équipe est à vous, tout à votre disposition."
 
 #: apps/mercato/templates/mercato/index.html:664
 msgid "Choose Your Plan"
-msgstr "Escolha seu plano"
+msgstr "Choisissez votre plan"
 
 #: apps/mercato/templates/mercato/index.html:666
 msgid "Get the services you want."
-msgstr "Tenha o serviço que você deseja."
+msgstr "Obtenez les services que vous souhaitez."
 
 #: apps/mercato/templates/mercato/index.html:675
 msgid "Basic"
@@ -263,63 +264,63 @@ msgstr "3.000"
 #: apps/mercato/templates/mercato/index.html:735
 #: apps/mercato/templates/mercato/index.html:764
 msgid "Per Month"
-msgstr "Por Mês"
+msgstr "Par mois"
 
 #: apps/mercato/templates/mercato/index.html:683
 #: apps/mercato/templates/mercato/index.html:711
 #: apps/mercato/templates/mercato/index.html:739
 #: apps/mercato/templates/mercato/index.html:768
 msgid "Data on production and sales"
-msgstr "Dados sobre produção e vendas"
+msgstr "Données sur la production et les ventes"
 
 #: apps/mercato/templates/mercato/index.html:684
 #: apps/mercato/templates/mercato/index.html:712
 #: apps/mercato/templates/mercato/index.html:740
 #: apps/mercato/templates/mercato/index.html:769
 msgid "Buying and transport budget estimation"
-msgstr "Estimativa de orçamento de compra e transporte"
+msgstr "Budget sur l'achat et de transit"
 
 #: apps/mercato/templates/mercato/index.html:685
 #: apps/mercato/templates/mercato/index.html:713
 #: apps/mercato/templates/mercato/index.html:741
 #: apps/mercato/templates/mercato/index.html:770
 msgid "Follow market evolution (specific period of time)"
-msgstr "Seguir a evolução do mercado (por um período espedífico de tempo)"
+msgstr "Suivre l'évolution du marché [période spécifique]"
 
 #: apps/mercato/templates/mercato/index.html:686
 #: apps/mercato/templates/mercato/index.html:714
 #: apps/mercato/templates/mercato/index.html:742
 #: apps/mercato/templates/mercato/index.html:771
 msgid "Detailed report on Brazilian market (specific product)"
-msgstr "Relatórios detalhados do mercado brasileiro (produto específico)"
+msgstr "Rapport détaillé sur le marché brésilien [produit spécifique]"
 
 #: apps/mercato/templates/mercato/index.html:687
 #: apps/mercato/templates/mercato/index.html:715
 #: apps/mercato/templates/mercato/index.html:743
 #: apps/mercato/templates/mercato/index.html:772
 msgid "Entrepreneurial relationship between Africa and Brazil"
-msgstr "Relações empresariais entre África e Brasil"
+msgstr "Mise en place des relations d'entreprise [Afrique - Brésil]"
 
 #: apps/mercato/templates/mercato/index.html:688
 #: apps/mercato/templates/mercato/index.html:716
 #: apps/mercato/templates/mercato/index.html:744
 #: apps/mercato/templates/mercato/index.html:773
 msgid "Assistance for business negotiation"
-msgstr "Assistência para negociações comerciais"
+msgstr "Assistance à la negociation entre entreprises"
 
 #: apps/mercato/templates/mercato/index.html:689
 #: apps/mercato/templates/mercato/index.html:717
 #: apps/mercato/templates/mercato/index.html:745
 #: apps/mercato/templates/mercato/index.html:774
 msgid "Assistance for business transaction"
-msgstr "Assistência para transações comerciais"
+msgstr "Assistance à la transaction entre entreprises"
 
 #: apps/mercato/templates/mercato/index.html:690
 #: apps/mercato/templates/mercato/index.html:718
 #: apps/mercato/templates/mercato/index.html:746
 #: apps/mercato/templates/mercato/index.html:775
 msgid "Assistance for the transport to final destination"
-msgstr "Assistência para o transporte até o destino final"
+msgstr "Assistance durant le transit vers destination finale"
 
 #: apps/mercato/templates/mercato/index.html:703
 msgid "Silver"
@@ -350,33 +351,38 @@ msgid ""
 "If you’re looking for answers or problem solving, you’ll find many ways to "
 "contact us right here."
 msgstr ""
-"Se você tiver procurando por respostas ou resolução de problemas, você "
-"encontrará várias formas de nos contatar aqui."
+"Que vous soyez à la recherche de réponses, souhaitez résoudre un problème, "
+"vous trouverez de nombreuses façons de nous contacter ici."
 
 #: apps/mercato/templates/mercato/index.html:910
 msgid "Address"
-msgstr "Endereço"
+msgstr "Adresse"
 
 #: apps/mercato/templates/mercato/index.html:913
-#: apps/mercato/templates/mercato/index.html:995
 msgid "Phone"
-msgstr "Telefone"
+msgstr "Téléphone"
 
 #: apps/mercato/templates/mercato/index.html:961
 msgid " Well done! </strong> Your message is have been submited."
-msgstr "Muito bem! sua mensagem foi enviada."
+msgstr "Bravo! </ strong> Votre message a été envoyé."
 
 #: apps/mercato/templates/mercato/index.html:964
 msgid " Ooops !</strong> Something went wrong, try again. "
-msgstr "Oops! algo deu errado, tente novamente."
+msgstr "Ooops! </ Strong> Quelque chose a mal tourné, essayez à nouveaux."
 
 #: apps/mercato/templates/mercato/index.html:975
 msgid "Full Name"
-msgstr "Nome completo"
+msgstr "Nom complet"
 
 #: apps/mercato/templates/mercato/index.html:981
 msgid "Company Name"
-msgstr "Nome da empresa"
+msgstr "Nom de l'entreprise"
+
+#: apps/mercato/templates/mercato/index.html:995
+#, fuzzy
+#| msgid "Phone"
+msgid "Phone "
+msgstr "Téléphone"
 
 #: apps/mercato/templates/mercato/index.html:1004
 msgid "Plan D (Basic)"
@@ -396,16 +402,16 @@ msgstr "Plan A (Diamond)"
 
 #: apps/mercato/templates/mercato/index.html:1013
 msgid "Subject"
-msgstr "Assunto"
+msgstr "Sujet"
 
 #: apps/mercato/templates/mercato/index.html:1020
 msgid "Send message"
-msgstr "Enviar mensagem"
+msgstr "Envoyer"
 
 #: apps/mercato/templates/mercato/index.html:1044
 #: apps/mercato/templates/mercato/index.html:1054
 msgid "About Us"
-msgstr "Sobre Nós"
+msgstr "À propos"
 
 #: apps/mercato/templates/mercato/index.html:1046
 msgid ""
@@ -416,21 +422,20 @@ msgid ""
 "dynamic people with experience on market analysis and international trade "
 "consulting ."
 msgstr ""
-"Br-Mercato é um grupo de profissionais apaixonadamente comprometidos em "
-"oferecer um serviço de consultoria de mercado para qualquer companhia que "
-"precisar ou quiser acessar o mercado brasileiro. Nós trabalhamos para "
-"aqueles que procuram comprar produtos ou aumentar a receita de seu negócio "
-"em seu próprio país ou mercado. Nós temos uma equipe de pessoas jovens e "
-"dinâmicas com experiência em análise de mercado e consultoria em comércio "
-"internacional."
+"Br-Mercato est un groupe de professionnels passionnément engagés à offrir un "
+"service de consultation commerciale à toute entreprise qui a besoin ou qui "
+"veut avoir accès au marché brésilien. Destiné à acheter des produits ou "
+"augmenter les revenus de l'entreprise dans son propre pays ou marché. Nous "
+"sommes une équipe de personnes jeunes et dynamiques ayant de l'expérience en "
+"analyse de marché et en consultation sur le commerce international."
 
 #: apps/mercato/templates/mercato/index.html:1052
 msgid "Useful Links"
-msgstr "Links Úteis"
+msgstr "Liens utiles"
 
 #: apps/mercato/templates/mercato/index.html:1080
-msgid " Copyright &copy; Br-Mercato 2018 | All right reserved. "
-msgstr ""
+msgid " Copyright &copy; Brazil Mercato 2018 | All right reserved. "
+msgstr "Copyright &copy; Brazil Mercato 2018 | Tous droits réservés."
 
 #: brmercato/settings.py:114
 msgid "English"
@@ -447,3 +452,6 @@ msgstr ""
 #: brmercato/settings.py:117
 msgid "Swahili"
 msgstr ""
+
+#~ msgid "Phone (optional)"
+#~ msgstr "Téléphone"

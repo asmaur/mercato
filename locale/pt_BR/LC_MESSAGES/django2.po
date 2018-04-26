@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-15 05:31+0000\n"
+"POT-Creation-Date: 2018-04-26 12:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,18 +36,17 @@ msgstr "Benefícios"
 
 #: apps/mercato/templates/mercato/index.html:70
 msgid "Pricing"
-msgstr "preços"
+msgstr "Preços"
 
 #: apps/mercato/templates/mercato/index.html:73
 msgid "Contact"
-msgstr "contato"
+msgstr "Contato"
 
 #: apps/mercato/templates/mercato/index.html:107
-#, fuzzy
 msgid ""
 " We have been working very hard <br> to Connect Africa to Brasilian Market. "
 msgstr ""
-"Nós temos trabalhado muito <br> para conectar África ao mercado Brasileiro"
+"Nós temos trabalhado muito <br> para conectar África ao mercado Brasileiro."
 
 #: apps/mercato/templates/mercato/index.html:113
 msgid "Play video"
@@ -55,7 +54,7 @@ msgstr "Assista ao vídeo"
 
 #: apps/mercato/templates/mercato/index.html:132
 msgid "Get our Newsletters"
-msgstr "Tenha nossas Newsletters"
+msgstr "Receba nossas Newsletters"
 
 #: apps/mercato/templates/mercato/index.html:133
 msgid "The last and the best in your email"
@@ -63,11 +62,11 @@ msgstr "As últimas e as melhores no seu email"
 
 #: apps/mercato/templates/mercato/index.html:138
 msgid "Full name (Optional)"
-msgstr "nome completo (opcional)"
+msgstr "Nome completo (opcional)"
 
 #: apps/mercato/templates/mercato/index.html:148
 msgid "Phone Number (Optional)"
-msgstr "Número de telefone"
+msgstr "Número de telefone (Opcional"
 
 #: apps/mercato/templates/mercato/index.html:153
 msgid "Send"
@@ -79,11 +78,11 @@ msgstr "Carregando"
 
 #: apps/mercato/templates/mercato/index.html:166
 msgid "Thanks for subscribing ..."
-msgstr "Obrigado por se inscrever"
+msgstr "Obrigado por se inscrever ..."
 
 #: apps/mercato/templates/mercato/index.html:168
 msgid "Something went wrong ..."
-msgstr "Algo errado ocorreu"
+msgstr "Algo errado ocorreu ..."
 
 #: apps/mercato/templates/mercato/index.html:186
 msgid " Solution in 4 <span class=\"color-text\"> Easy </span> Steps "
@@ -127,15 +126,15 @@ msgstr "Os melhores preços"
 
 #: apps/mercato/templates/mercato/index.html:236
 msgid "We show to you the best prices from the Brazilian market."
-msgstr "Nos mostramos a você os melhores preços do mercado brasileiro"
+msgstr "Nos mostramos a você os melhores preços do mercado brasileiro."
 
 #: apps/mercato/templates/mercato/index.html:248
 msgid "Make the Deal"
-msgstr "Faça a negociação"
+msgstr "Faça a negócio"
 
 #: apps/mercato/templates/mercato/index.html:251
 msgid "Your choices are ours, we make the deal happen."
-msgstr "Suas escolhas são nossas, nós fazemos a negociação acontecer"
+msgstr "Suas escolhas são nossas, nós fazemos a negociação acontecer."
 
 #: apps/mercato/templates/mercato/index.html:276
 msgid "Our approach"
@@ -143,7 +142,7 @@ msgstr "Nossa abordagem"
 
 #: apps/mercato/templates/mercato/index.html:278
 msgid " Balancing risk <br> and opportunity "
-msgstr "Balanceado risco <br> e Oportunidade"
+msgstr "Balanceando risco <br> e Oportunidade"
 
 #: apps/mercato/templates/mercato/index.html:281
 msgid ""
@@ -204,15 +203,15 @@ msgstr "Super rápido"
 
 #: apps/mercato/templates/mercato/index.html:535
 msgid "We do the market search and filter it for you."
-msgstr "Fazemos pesquisa de mercado e filtramos para você"
+msgstr "Fazemos pesquisa de mercado e filtramos para você."
 
 #: apps/mercato/templates/mercato/index.html:543
 msgid "Simple & Light"
-msgstr "simples e Light"
+msgstr "Simples & Light"
 
 #: apps/mercato/templates/mercato/index.html:545
 msgid "Clear and Concise report for good business decision."
-msgstr "Relatórios claros e concisos para boas decisões de negócios"
+msgstr "Relatórios claros e concisos para boas decisões de negócios."
 
 #: apps/mercato/templates/mercato/index.html:553
 msgid "Easy To Use"
@@ -220,7 +219,7 @@ msgstr "Fácil de usar"
 
 #: apps/mercato/templates/mercato/index.html:555
 msgid "Just make contact and we do the job for you."
-msgstr "Faça contato e nós faremos o trabalho para você"
+msgstr "Faça contato e nós faremos o trabalho para você."
 
 #: apps/mercato/templates/mercato/index.html:563
 msgid "Customized plans"
@@ -248,7 +247,7 @@ msgstr "Escolha seu plano"
 
 #: apps/mercato/templates/mercato/index.html:666
 msgid "Get the services you want."
-msgstr "Tenha o serviço que você deseja"
+msgstr "Tenha o serviço que você deseja."
 
 #: apps/mercato/templates/mercato/index.html:675
 msgid "Basic"
@@ -263,7 +262,7 @@ msgstr "3.000"
 #: apps/mercato/templates/mercato/index.html:735
 #: apps/mercato/templates/mercato/index.html:764
 msgid "Per Month"
-msgstr "Por Mensal"
+msgstr "Por mês"
 
 #: apps/mercato/templates/mercato/index.html:683
 #: apps/mercato/templates/mercato/index.html:711
@@ -298,7 +297,7 @@ msgstr "Relatórios detalhados do mercado brasileiro (produto específico)"
 #: apps/mercato/templates/mercato/index.html:743
 #: apps/mercato/templates/mercato/index.html:772
 msgid "Entrepreneurial relationship between Africa and Brazil"
-msgstr "Relações empreendedoras entre África e Brasil"
+msgstr "Relações empresariais entre África e Brasil"
 
 #: apps/mercato/templates/mercato/index.html:688
 #: apps/mercato/templates/mercato/index.html:716
@@ -326,7 +325,6 @@ msgid "Silver"
 msgstr "Silver"
 
 #: apps/mercato/templates/mercato/index.html:706
-#, fuzzy
 msgid "5,000"
 msgstr "5.000"
 
@@ -335,7 +333,6 @@ msgid "Gold"
 msgstr "Gold"
 
 #: apps/mercato/templates/mercato/index.html:734
-#, fuzzy
 msgid "10,000"
 msgstr "10.000"
 
@@ -352,7 +349,7 @@ msgid ""
 "If you’re looking for answers or problem solving, you’ll find many ways to "
 "contact us right here."
 msgstr ""
-"Se você está procurando por respostas ou resolução de problemas, você "
+"Se você tiver procurando por respostas ou resolução de problemas, você "
 "encontrará várias formas de nos contatar aqui"
 
 #: apps/mercato/templates/mercato/index.html:910
@@ -365,11 +362,11 @@ msgstr "Telefone"
 
 #: apps/mercato/templates/mercato/index.html:961
 msgid " Well done! </strong> Your message is have been submited."
-msgstr "Muito bem! sua mensagem foi enviada"
+msgstr "Muito bem! sua mensagem foi enviada."
 
 #: apps/mercato/templates/mercato/index.html:964
 msgid " Ooops !</strong> Something went wrong, try again. "
-msgstr "Ops! algo deu errado, tente novamente"
+msgstr "Ops! algo deu errado, tente novamente."
 
 #: apps/mercato/templates/mercato/index.html:975
 msgid "Full Name"
@@ -380,7 +377,7 @@ msgid "Company Name"
 msgstr "Nome da empresa"
 
 #: apps/mercato/templates/mercato/index.html:995
-msgid "Phone (optional)"
+msgid "Phone "
 msgstr "Telefone"
 
 #: apps/mercato/templates/mercato/index.html:1004
@@ -398,6 +395,10 @@ msgstr "Plano B (Gold)"
 #: apps/mercato/templates/mercato/index.html:1007
 msgid "Plan A (Diamond)"
 msgstr "Plano A (Diamond)"
+
+#: apps/mercato/templates/mercato/index.html:1013
+msgid "Subject"
+msgstr "Assunto"
 
 #: apps/mercato/templates/mercato/index.html:1020
 msgid "Send message"
@@ -427,11 +428,11 @@ msgstr ""
 
 #: apps/mercato/templates/mercato/index.html:1052
 msgid "Useful Links"
-msgstr "Links úteis"
+msgstr ""
 
 #: apps/mercato/templates/mercato/index.html:1080
 msgid " Copyright &copy; Brazil Mercato 2018 | All right reserved. "
-msgstr "Copyright &copy; Brazil Mercato 2018 | Todos os direitos reservados"
+msgstr ""
 
 #: brmercato/settings.py:114
 msgid "English"
@@ -448,9 +449,3 @@ msgstr ""
 #: brmercato/settings.py:117
 msgid "Swahili"
 msgstr ""
-
-#~ msgid "5,500"
-#~ msgstr "5.500"
-
-#~ msgid "7,000"
-#~ msgstr "7.000"

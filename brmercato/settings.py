@@ -21,10 +21,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'yhlvjmvurl_058y4@%xr!yk*@($2(5q8yp3x^$74buyp%tqlbf'
+#SECRET_KEY = 'yhlvjmvurl_058y4@%xr!yk*@($2(5q8yp3x^$74buyp%tqlbf'
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'yhlvjmvurl_058y4@%xr!yk*@($2(5q8yp3x^$74buyp%tqlbf')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False #True
+#DEBUG = True
+DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
 ALLOWED_HOSTS = ["*"]
 
@@ -52,6 +54,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.locale.LocaleMiddleware',
+    'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'brmercato.urls'

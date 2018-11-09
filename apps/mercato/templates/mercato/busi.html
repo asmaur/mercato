@@ -5,74 +5,29 @@
     {% block content %}
 
     <!-- main page -->
-    <div id="main">
-       <div id="layers"></div>
-        <div class="container">
-        <div class="row align-items-center justify-content-center">
-               
-                <div class="col-md-12">
-                    <div class="content" style="">
-                        <h3 id="head"> Welcome to Br-Mercato,</h3>
-                       <!-- <h2 id="headline"> Connecting Africa to the Brasilian Market. </h2> -->
-                       <h2 id="headline"> Connecting you to the Brasilian supliers. </h2>
-                       
-                    <a href="/contact" class="btn btn-lg btn-outline-warning">Get in Touch</a>
-                    </div>               
-                
-                </div>              
-                   
+    <div id="sub-main">
+       
+        <div class="container-fluid">
+            <div class="row text-center align-items-center">
+                <div class="col-12">
+                   <div class="text-partner">
+                       <h1 class="display-6">Business Divisions</h1>
+                      
+                   </div>
+                   <hr>
+                </div>
             </div>
         </div>
-        
-        
+            
     </div>
     <!-- End main page -->
-    
-    <!-- about display -->
-    <div id="about">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6" id="about-img">
-                    <div class="image" style="background-image:url(/static/img/brasil.jpg);"></div>
-                </div>
-                
-                <div class="col-sm-12 col-md-6 col-lg-6 text-center" id="about-text">                    
-                          <h2 class="display-4">About Us</h2>
-                          <hr>
-                              <p>
-                              When it comes to trusted business partner, Br-Mercato located in Porto Alegre - RS is the ideal partner for you in inspection, procurement, sourcing.
-                              </p>
-                                
-                            <p>  Br-Mercato is a group of professionals passionately committed to offer a trade consulting service to any company that need or want to get access to the Brazilian market or supliers. We are a team of young and dynamic people with experience on market analysis and international trade consulting. </p>
-                                    
-                            <p>  Br-Mercato has built a solid reputation in wide geography in Europe and principaly in Africa. </p> 
-                                  
+
+   <div id="sub-content">
+       <div class="container">
+           <div class="row">
                           
-                          <a href="/about" class="btn btn-outline-dark btn-lg">Read more</a>
-                    
-                </div>     
-                    
-            </div>
                 
-            
-        </div>
-    </div>
-    <!-- end about -->
-    
-    
-      
-    
-     <!-- business display -->
-    <div id="business">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">            
-                    <h2 class="display-4" style="margin-top: 1.2rem;">Business Divisions</h2>
-                    <hr>                     
-                </div>
-            </div>
-            <div class="row align-items-end">    
-                <div class="col-sm-12 col-md-6 border-dark mb-3">                    
+                <div class="col-sm-12 col-md-6 border-dark mb-3 mt-3">                    
                     <div class="card">
                         <img class="card-img-top" src="{% static "img/agro/agro_8.jpg" %}" alt="Card image cap">
                         <div class="card-body">
@@ -83,7 +38,7 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-12 col-md-6 border-dark mb-3">                    
+                <div class="col-sm-12 col-md-6 border-dark mb-3 mt-3">                    
                     <div class="card">
                         <img class="card-img-top" src="{% static "img/ferro-aco/verga.jpg" %}" alt="Card image cap">
                         <div class="card-body">
@@ -94,7 +49,7 @@
                     </div>
                 </div>
                 
-                <div class="col-sm-12 col-md-6 border-dark mb-3">                    
+                <div class="col-sm-12 col-md-6 border-dark mb-3">
                     <div class="card">
                         <img class="card-img-top" src="{% static "img/calcado/sapatos-femininos.jpg" %}" alt="Card image cap">
                         <div class="card-body">
@@ -102,11 +57,11 @@
                             <p class="card-text">Currently, Brazil is is the third largest footwear producer in the world, being the third largest shoe manufacturer in the world.
 The export of the Brazilian shoe is made to more than 150 countries.</p>
                             <a href="/footwear-acessorie" class="btn btn-warning btn-block">Read more</a>
-                        </div>                                             
+                        </div>
                     </div>
                 </div>
-                
-                <div class="col-sm-12 col-md-6 border-dark mb-3">                    
+
+                <div class="col-sm-12 col-md-6 border-dark mb-3">
                     <div class="card">
                         <img class="card-img-top" src="{% static "img/papel/papel.jpg" %}" alt="Card image cap">
                         <div class="card-body">
@@ -117,11 +72,9 @@ The export of the Brazilian shoe is made to more than 150 countries.</p>
                     </div>
                 </div>
                 
-                               
-            </div>
-        </div>
-    </div>
-    <!-- end business -->
+                
+           </div>
+       </div>
+   </div> 
 
-    {% endblock %}
-
+{% endblock %}

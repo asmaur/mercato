@@ -53,9 +53,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.locale.LocaleMiddleware', #translation
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware', #heroku live
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'brmercato.urls'
@@ -138,27 +138,19 @@ LOCALE_PATHS = (
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, '/static/')
+STATIC_URL = '/assets/'
+STATIC_ROOT = os.path.join(BASE_DIR, '/assets/')
 
-#GEOIP_PATH = os.getcwd() +'/brmercato/geoip/' #'/home/amaurice/Documents/mercatopro/files/brmercato/geoip/' #os.path.join(BASE_DIR, '/geoip/')
+GEOIP_PATH = os.getcwd() +'/brmercato/geoip/' #'/home/amaurice/Documents/mercatopro/files/brmercato/geoip/' #os.path.join(BASE_DIR, '/geoip/')
 
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'brmercato', 'static'),
+    os.path.join(BASE_DIR, 'brmercato', 'assets'),
 )
 SITE_ID = 1
-"""
+
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'contatomotivagym@gmail.com'
 EMAIL_HOST_PASSWORD = 'L0uk@mente123'
-"""
-
-EMAIL_HOST = 'smtp.zoho.com'
-EMAIL_HOST_USER = 'contact@br-mercato.com'
-EMAIL_HOST_PASSWORD = 'UjUNBvi0W5rt'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False

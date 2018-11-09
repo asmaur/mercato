@@ -1,0 +1,66 @@
+{% extends "mercato/base.html"%}
+{% load staticfiles %}
+
+
+    {% block content %}
+
+    <!-- main page -->
+    <div id="sub-main">
+       
+        <div class="container-fluid">
+            <div class="row text-center align-items-center">
+                <div class="col-12">
+                   <div class="text-partner">
+                       <h1 class="display-6">Agro Négocios</h1>
+                      
+                   </div>
+                   <hr>
+                </div>
+            </div>
+        </div>
+            
+    </div>
+    <!-- End main page -->
+
+  
+   <div id="sub-one" class="parallax-window" data-parallax="scroll" data-image-src="/static/img/agro/frango.jpg">
+       <div class="container-fluid">
+           <div class="row">
+               
+           </div>
+       </div>
+   </div>
+   
+   <div id="sub-two">
+       <div class="container-fluid">
+           <div class="row">
+               <div class="col-md-6">
+                   <img src="{% static "img/agro/agro_8.jpg" %}" alt="" class="img-fluid mx-auto d-block mt-3 mb-3">
+               </div>
+               <div class="col-md-6" style="color: #ffb900; font-weight: bold;">
+                   
+                   <div class="list-group" style="padding: 1rem;">
+                      <a href="#" class="list-group-item list-group-item-action" style="background-color: #ffb81e;">
+                        Agri Business
+                      </a>
+                      <a href="#" class="list-group-item list-group-item-action">Frango congelados e miudos</a>
+                      <a href="#" class="list-group-item list-group-item-action">Carne Bovina</a>
+                      <a href="#" class="list-group-item list-group-item-action">Carne de porco e derivados</a>
+                      <a href="#" class="list-group-item list-group-item-action">Café, açucar, grãos e outros</a>
+                    </div>
+                   
+                   
+               </div>
+           </div>
+       </div>
+   </div> 
+   
+     <div id="sub-tree" class="parallax-window" data-parallax="scroll" data-image-src="/static/img/agro/carne3.jpg">
+       <div class="container-fluid">
+           <div class="row">
+               
+           </div>
+       </div>
+   </div> 
+    
+  {% endblock %}

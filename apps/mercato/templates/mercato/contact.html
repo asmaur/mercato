@@ -1,0 +1,167 @@
+{% extends "mercato/base.html"%}
+{% load staticfiles %}
+
+
+    {% block content %}
+
+    <!-- main page -->
+    <div id="sub-main">
+
+        <div class="container-fluid">
+            <div class="row text-center align-items-center">
+                <div class="col-12">
+                    <div class="text-partner">
+                        <h1 class="display-6">Contact Us</h1>
+
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- End main page -->
+    
+    
+
+    <div id="sub-content">
+        <div class="container-fluid">
+           <div class="row">
+               <div class="col-sm-12 col-md-12 col-lg-12" >
+                   
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.6283180892347!2d-51.20190904874188!3d-30.047519338292453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519783f7000c2ed%3A0x580c39695f1d1159!2sVicente+da+Fontoura!5e0!3m2!1sen!2sbr!4v1540827635662" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    
+                </div>
+               
+           </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                    <p class="" style="margin-top: 2rem; font-size: 1.2rem;">What ever you need from the Brasilian market
+                    <br> Get in touch
+                    </p>
+                    <hr style="width: 70%">
+                    <address class="contact-address" style="margin-top: 1rem;">
+                        <p>Address: R. Marechal Floriano Peixoto, 370 <br>CEP: 90020-060 <br>Porto Alegre - RS Brazil </p>
+                        <hr style="width: 70%">
+                        <p>Email : <a href="mailto:contact@br-mercato.com">contact@br-mercato.com</a></p>
+                        <p>Phone :+55 51 99730 8385</p>
+                        <hr style="width: 70%">
+                    </address>
+                    <div class="social">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/5551997308385" target="_blank"><i class="fab fa-whatsapp-square fa-3x"></i></a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+
+                <style>
+                    #loader {
+                        display: none;
+                        position: relative;
+                        //top: 0;
+                        //left: 0;
+                        z-index: 100;
+                        width: 35rem;
+                        height: 15rem;
+                        background-color: rgba(255, 255, 255, 0.5);
+                        background-image: url("/static/img/loading.gif");
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+
+                        .alert-success{
+                            display: none;
+                        }
+
+                        .alert-danger{
+                            display: none;
+                        }
+                </style>
+
+
+
+                <div class="col-md-6 col-md-offset-1 col-sm-6" style="margin: 2rem 0 2rem 0;">
+                    <div class="alert alert-success" id="success">
+                        <strong> Well done! </strong> Your message is have been submited.
+                    </div>
+
+                    <div class="alert alert-danger" id="danger">
+                        <strong> Ooops !</strong> Something went wrong, try again.
+                    </div>
+
+                    <div id="loader" class="center-block"></div>
+
+                    <form data-toggle="validator" id="contactForm" novalidate="true">
+                        {% csrf_token %}
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="full_name" id="full_name" placeholder="Full Name" required="">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="company" id="company" placeholder="Company Name" required="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="mail" id="mail" placeholder="Email" required="">
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="form-group" data-toggle="tooltip" data-placement="bottom" title="We may make contact via WhatsApp">
+                                    <input type="tel" class="form-control" name="fone" id="fone" placeholder="Phone (international format)" required="" >
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                           <!-- <div class="col-sm-6">
+                                <div class="form-group">
+                                    <select class="form-control input-lg" name="plan" id="plan">
+                                        <option>Plan D (Basic)</option>
+                                        <option>Plan C (Silver)</option>
+                                        <option selected="">Plan B (Gold)</option>
+                                        <option>Plan A (Diamond)</option>
+                                    </select>
+                                </div>
+                            </div> -->
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required="">
+                                </div>
+                            </div>
+                        </div> <!-- END row-->
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" id="message" placeholder="Message" rows="8" required=""></textarea>
+                        </div>
+                        <button class="btn btn-block buying" type="submit">Send message</button>
+                    </form>
+                </div> <!-- END col-md-6 col-md-offset-1-->
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+{% endblock %}

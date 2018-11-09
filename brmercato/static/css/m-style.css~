@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body{
+    width: 100%;
+    height: 100%;
+    color: #111;
+    //background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+.navbar{
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: #fff;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    z-index: 9;
+    
+   
+}
+.navbar-light{
+    color: white;
+}
+
+.menu-top {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    
+}
+.nav-link{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    background-color: #ffb900;
+    //border-radius: .5rem;
+    color: #111;
+}
+
+.menu-top .nav-link{
+    color: #fff !important;
+}
+.menu-change .nav-link{
+    color: #111 !important;
+}
+.menu-change {
+    background-color: #fff;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    width: 100%;
+}
+
+.nav-item .active{
+    background-color: #ffb900;
+    //border-radius: .5rem;
+}
+
+.my-toggler.navbar-toggler {
+    border-color: rgb(255,185,0,1);
+}
+.my-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,185,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-collapse .nav-link{
+    padding-left: .5rem;
+    
+}
+.navbar-brand{
+    padding-left: .5rem;
+}
+
+
+#layers{
+    min-height: 100%;
+    //background-color: red;
+    
+}
+
+#head, #headline{
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.content{
+    //position: relative;
+    //top: 3rem;
+    //color: #262626;
+}
+#main{
+    min-height: 100%;
+    overflow: hidden;
+    
+}
+#main{
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../img/trade.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#main .content{
+    margin-top: 40vh;
+}
+
+#about{
+    min-height: 50%;
+    //background-color: #FFF;
+}
+hr{
+    border-top: 4px solid #ffb900;
+    width: 25%;
+    margin-top: .1rem;
+    margin-bottom: 1rem;
+}
+.image {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    
+}
+
+#about-img{
+    padding: 0;
+}
+#about-text{
+    height: 100vh;
+    margin-top: 1rem;
+    color: #111;
+    
+    
+}
+#about-text p{
+    font-size: 1.4rem;
+    //margin-left: 0rem;
+    max-width: 95%; 
+    text-align: justify; 
+    margin-top: .1rem; 
+    padding: .3rem;
+    color: #001 !important;
+}
+
+#partner{
+    min-height: 50%;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
+}
+.text-partner{
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    color: #fff;
+    vertical-align: middle;
+}
+.text-partner{
+    margin-top: 5rem;
+    margin-bottom: auto;
+}
+.title-tag{
+    font-size: 1.4rem;
+}
+#business{
+    min-height: 100%;
+    background-color:#fff;
+}
+.card-text{
+    text-align: justify;
+}
+
+.buying{
+    font-size: 1.5rem;
+    background-color: #ffb81e;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+    //border-radius: 20px;
+    //padding: .3rem;
+    //margin: .8rem;
+}
+
+#footer{
+    min-height: 5%;
+    background: #222;
+    position: relative;
+    padding: 1rem;
+    display: block;
+    
+}
+
+.footer-bottom {
+    background: #222;
+    display: inline;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;    
+}
+#footer a{
+    text-decoration: none;
+    color: #fff;
+    //padding-left: 2rem;
+    font-size: .7rem;
+}
+
+.topcontrol {
+    background: #ffb900 none repeat scroll 0 0;
+    border-radius: 30px;
+    bottom: 5px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    opacity: 1;
+    position: fixed;
+    right: 5px;
+    text-align: center;
+    transition: all 0.2s ease 0s;
+    width: 50px;
+}
+.topcontrol:hover {
+    background: #222;
+    color: #fff;
+}
+
+/*---Media Queries --*/
+
+@media only screen and (min-width: 320px) { 
+    body{
+        color: red;
+    }
+    #head, #headline{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+    #about-text p{
+        font-size: .7rem;
+        padding: 0rem;
+    }
+    .text-partner{
+        margin-top: 2em;
+    }
+    .text-partner h1{
+        font-size: 1.2rem;
+    }
+    .text-partner p{
+        font-size: .6rem;
+    }
+    #business h2{
+        font-size: 1.7rem;
+    }
+  
+} 
+
+@media only screen and (min-width: 375px) { 
+   body{
+        color: brown;
+    }
+}
+
+@media only screen and (min-width: 500px) { 
+  body{
+        color: cyan;
+    }
+}
+
+@media only screen and (min-width: 768px) { 
+ body{
+        color: indianred;
+    }
+    #head, #headline{
+        font-size: 2rem;
+    }
+    #about-text p{
+        font-size: 1rem;
+        padding: 0rem;
+    }
+    .text-partner{
+        //margin-top: rem;
+    }
+    .text-partner h1{
+        font-size: 3rem;
+    }
+    .text-partner p{
+        font-size: 1.2rem;
+    }
+    #business h2{
+        font-size: 2.5rem;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) { 
+ body{
+        color: blue;
+    }
+    #head, #headline{
+        font-size: 3rem;
+    }
+    #about-text p{
+        font-size: 1.5rem;
+        padding: 0rem;
+    }
+    .text-partner{
+        margin-top: 3.5rem;
+    }
+    .text-partner h1{
+        font-size: 3rem;
+    }
+    .text-partner p{
+        font-size: 1.2rem;
+    }
+    #business h2{
+        font-size: 2.5rem;
+    }
+} 

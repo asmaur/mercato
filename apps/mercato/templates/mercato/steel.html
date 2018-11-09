@@ -1,0 +1,67 @@
+{% extends "mercato/base.html"%}
+{% load staticfiles %}
+
+
+    {% block content %}
+
+
+    <!-- main page -->
+    <div id="sub-main">
+       
+        <div class="container-fluid">
+            <div class="row text-center align-items-center">
+                <div class="col-12">
+                   <div class="text-partner">
+                       <h1 class="display-6">Steel & Aluminium</h1>
+                      
+                   </div>
+                   <hr style="width: 25rem;">
+                </div>
+            </div>
+        </div>
+            
+    </div>
+    <!-- End main page -->
+
+  
+   <div id="sub-one" class="parallax-window" data-parallax="scroll" data-image-src="/static/img/ferro-aco/rebar-uk.jpg">
+       <div class="container-fluid">
+           <div class="row">
+               
+           </div>
+       </div>
+   </div>
+   
+   <div id="sub-two">
+       <div class="container-fluid">
+           <div class="row">
+               <div class="col-md-6">
+                   <img src="{% static "img/ferro-aco/steel-rebar.jpg" %}" alt="" class="img-fluid mx-auto d-block mt-3 mb-3">
+               </div>
+               <div class="col-md-6" style="color: #ffb900; font-weight: bold;">
+                   
+                   <div class="list-group" style="padding: 1rem;">
+                      <a href="#" class="list-group-item list-group-item-action" style="background-color: #ffb81e;">
+                        Steel & Aluminium
+                      </a>
+                      <a href="" class="list-group-item list-group-item-action">Perfis & Vergalhões de aço</a>
+                      <a href="" class="list-group-item list-group-item-action">Perfis de alumínio</a>
+                      <a href="" class="list-group-item list-group-item-action">Bolcos e Laminas de aluminío</a>
+                      
+                    </div>
+                   
+                   
+               </div>
+           </div>
+       </div>
+   </div> 
+   
+     <div id="sub-tree" class="parallax-window" data-parallax="scroll" data-image-src="/static/img/ferro-aco/distribuidora-de-aco.jpg">
+       <div class="container-fluid">
+           <div class="row">
+               
+           </div>
+       </div>
+   </div> 
+    
+   {% endblock %}

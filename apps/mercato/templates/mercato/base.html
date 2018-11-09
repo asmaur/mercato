@@ -1,0 +1,143 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags-->
+
+    <meta name="keywords" content="">
+    <meta name="description" content="Br-Mercato is a startup company build to connect the African continent to the Brasilian market. Handing for more commercial exchange following the BRICS philosophy.">
+    <meta name="author" content="Maurice AINON | am.amauri@outlook.com">
+
+    <!-- Viewport Meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/x-icon" href="img/mert.png">
+
+    <title>Br-Mercato | Global Trading Service</title>
+
+    <!--css-->
+    <link rel="stylesheet" href="{% static "vendor/css/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "css/m-style.css" %}">
+    <link rel="stylesheet" href="{% static "css/sub-style.css" %}">
+
+
+</head>
+
+<body data-spy="scroll" data-offset="80">
+
+    <!--navbar item -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top menu-top">
+        <div class="container">
+            <a href="/" class="navbar-brand page-scroll" style="font-size: 30px; color: #606;">
+                <img src="{% static "img/brm2.png" %}" alt="">
+            </a>
+            <button class="navbar-toggler my-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-nav">
+                <ul class="navbar-nav ml-auto" style="margin-left: .3rem;">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/business-divisions">Business Divisions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/services">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="/contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+    </nav>
+
+    {% block content %}
+
+
+    {% endblock %}
+
+    <!-- partener display -->
+    <div id="partner" class="parallax-window" data-parallax="scroll" data-image-src="{% static "img/partner.jpg" %}">
+
+        <div class="container-fluid">
+            <div class="row text-center align-items-center">
+                <div class="col-12">
+                    <div class="text-partner">
+                        <h1 class="display-4">Looking for cooperation?</h1>
+
+                        <p class="title-tag">We help you find a business partners and supliers from Brasil</p>
+                        <a href="" class="btn btn-outline-warning btn-lg"> Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end partener -->
+
+    <div style="height: 10%; background-color: #fff;"></div>
+
+
+    <!-- footer page -->
+    <div id="footer" class="text-center">
+
+        <div class="footer-bottom">
+
+            <p> Copyright © Br-Mercato 2018 | All right reserved.
+            <br>
+            <a href="/terms-conditions">Terms and Conditions</a> </p>
+
+        </div>
+
+    </div>
+    <!-- End footer page -->
+
+
+
+
+
+
+
+
+    <div id="topcontrol" class="topcontrol" title="" style="position: fixed; bottom: 5px; right: 5px; opacity: 1; cursor: pointer;"><i class="fa fa-arrow-up scrolltop"></i></div>
+
+    <!-- JS -->
+    <script src="{% static "js/jquery-3.3.1.min.js" %}"></script>
+    <script src="{% static "js/popper.min.js" %}"></script>
+    <script src="{% static "vendor/js/bootstrap.min.js" %}"></script>
+
+    <script src="{% static "js/scrolltopcontrol.js" %}"></script>
+    <script src="{% static "js/parallax.min.js" %}"></script>
+    <script src="{% static "js/script.js" %}"></script>
+    <script src="{% static "js/custom.js" %}"></script>
+    <script src="{% static "js/validator.min.js" %}"></script>
+    <script src="{% static "js/message.js" %}"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128952632-1"></script>
+    <script>
+    /*  window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-128952632-1'); */
+    </script>
+
+
+</body>
+
+</html>

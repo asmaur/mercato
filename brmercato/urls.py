@@ -29,3 +29,5 @@ urlpatterns += i18n_patterns(
     path('admin/', admin.site.urls),
 
 )
+handler404 = 'apps.mercato.views.error_404_view'
+handler403 = 'apps.mercato.views.error_403_view'

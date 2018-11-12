@@ -117,7 +117,7 @@ LANGUAGE_CODE = 'en'
 LANGUAGES = (
     ('en', _('English')),
     ('fr', _('French')),
-    ('pt-br', _('Portuguese')),
+    #('pt-br', _('Portuguese')),
     ('sw', _('Swahili')),
 )
 

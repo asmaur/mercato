@@ -1,0 +1,39 @@
+{% extends "mercato/base.html"%}
+{% load staticfiles %}
+
+
+{% block content %}
+
+<style>
+    #main{
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(/static/img/porto.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+</style>
+
+<!-- main page -->
+    <div id="main" >
+       <div id="layers"></div>
+        <div class="container">
+        <div class="row text-center">
+
+                <div class="col-md-12">
+                    <div class="content" style="">
+                        <h3 id="head"> PAGE NOT FOUND</h3>
+
+
+                    <a href="/" class="btn btn-lg btn-outline-warning">Go Back to Home</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <!-- End main page -->
+
+
+{% endblock %}

@@ -168,3 +168,8 @@ def contact_message(request):
 
     return HttpResponse(status=200, content_type='application/json', content=json.dumps(resp))
 
+def error_404_view(request, exception):
+    return render(request,'mercato/error.html', {}, status=404)
+
+def error_403_view(request, exception):
+    return render(request,'mercato/error.html', {}, status=403)

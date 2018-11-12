@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'yhlvjmvurl_058y4@%xr!yk*@($2(5
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
-DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
+DEBUG = bool( os.environ.get('DJANGO_DEBUG', False) )
 
 ALLOWED_HOSTS = ["*"]
 
@@ -139,7 +139,7 @@ LOCALE_PATHS = (
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, '/static/')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 #GEOIP_PATH = os.getcwd() +'/brmercato/geoip/' #'/home/amaurice/Documents/mercatopro/files/brmercato/geoip/' #os.path.join(BASE_DIR, '/geoip/')
 
@@ -148,13 +148,7 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'brmercato', 'static'),
 )
 SITE_ID = 1
-"""
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'contatomotivagym@gmail.com'
-EMAIL_HOST_PASSWORD = 'L0uk@mente123'
-"""
+
 
 EMAIL_HOST = 'smtp.zoho.com'
 EMAIL_HOST_USER = 'contact@br-mercato.com'

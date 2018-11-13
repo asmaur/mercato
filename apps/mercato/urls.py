@@ -15,7 +15,7 @@ urlpatterns = [
     re_path(r'^footwear-acessorie$',calcados),
     re_path(r'^steel-aluminium$',steel),
     re_path(r'^agri-business$',agri_business),
-    re_path(r'^terms-conditions$',terms),
+    #re_path(r'^terms-conditions$',terms),
     re_path(r'^news/$',news_letters),
 
 ]
